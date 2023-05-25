@@ -154,3 +154,15 @@
   color: #fff;
   font-family: "DM Sans";
 }
+
+
+.gridBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 1.5cm 1.5cm;
+}

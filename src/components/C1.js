@@ -32,7 +32,6 @@ const C1 = () => {
               rotate={1}
               className={styles.vectorIcon1}
             />
-            {/* <img className={styles.vectorIcon1} alt="" src="/vector2.svg" /> */}
           </div>
           <img
             className={styles.spiralVectorIcon}
@@ -45,7 +44,7 @@ const C1 = () => {
 
       <div className={styles.frameParent}>
         <div className={styles.layer1Wrapper}>
-          <img className={styles.layer1Icon} alt="" src="/layer-12.svg" />
+          <img className={styles.layer1Icon} alt="" src="/iocod-logo.png" />
         </div>
         <div className={styles.frameGroup}>
           <div className={styles.frameWrapper}>
@@ -54,21 +53,13 @@ const C1 = () => {
                 icon="mdi:cellphone-wireless"
                 className={styles.mdicellphoneWirelessIcon}
               />
-              {/* <img
-                className={styles.mdicellphoneWirelessIcon}
-                alt=""
-                src="/mdicellphonewireless.svg"
-              /> */}
+              
               <div className={styles.getStarted}>Connect us</div>
             </div>
           </div>
           <div className={styles.groupWrapper}>
             <Icon icon="la:grip-lines" />
-            {/* <img
-              className={styles.frameChild}
-              alt=""
-              src="/group-48097040.svg"
-            /> */}
+           
           </div>
         </div>
       </div>
@@ -150,7 +141,6 @@ const C1 = () => {
           rotate={2}
           className={styles.vectorIcon2}
         />
-        {/* <img className={styles.vectorIcon2} alt="" src="/vector3.svg" /> */}
       </div>
       <div className={styles.vuejsLogo21Parent}>
         <img className={styles.vuejsLogo21Icon} alt="" src="\vue.png" />

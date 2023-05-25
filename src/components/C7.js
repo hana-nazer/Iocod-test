@@ -7,11 +7,11 @@ const C7 = () => {
         <img
           className={styles.sketchAnnotationElementStroIcon}
           alt=""
-          src="/sketchannotationelementstrokechatbubbleovalsmallpointshadowfilled.svg"
+          src="-----------"
         />
       </div>
       <div className={styles.screenParent}>
-        <img className={styles.screenIcon} alt="" src="/screen@2x.png" />
+        <img className={styles.screenIcon} alt="" src="/video.jpg" />
         <div className={styles.kevinHarringtonAboutIocodParent}>
           <b className={styles.kevinHarringtonAboutContainer}>
             <span>{`Kevin Harrington `}</span>

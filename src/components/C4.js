@@ -2,6 +2,7 @@ import styles from "../stylesheets/c4.module.css";
 const C4 = () => {
   return (
     <div className={styles.c4}>
+       <div className={styles.gridBackground}></div>
       <div className={styles.c4Inner} />
       <div className={styles.button}>
         <div className={styles.buttonChild} />
