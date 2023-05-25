@@ -1,0 +1,278 @@
+.letsBuildTogether {
+    position: relative;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    width: 305px;
+    height: 144.54px;
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  .groupIcon {
+    position: absolute;
+    margin: 0 !important;
+    width: 19.11%;
+    top: 80.27px;
+    right: 8.26%;
+    left: 72.62%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 34.77px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .letsBuildTogetherParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 2px;
+    z-index: 0;
+  }
+  .calicut,
+  .groundFloor {
+    position: relative;
+  }
+  .groundFloor {
+    font-size: 12px;
+    color: #1c232d;
+    display: inline-block;
+    width: 202px;
+  }
+  .calicutParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .thFloorNovel {
+    margin: 0;
+  }
+  .thFloorNovelContainer {
+    position: relative;
+    font-size: 12px;
+    color: #1c232d;
+    display: inline-block;
+    width: 163px;
+  }
+  .frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    z-index: 1;
+    font-size: 20px;
+  }
+  .groupChild {
+    position: absolute;
+    top: -67.74px;
+    left: 46.97px;
+    background-color: #514ed8;
+    width: 33.79px;
+    height: 33.18px;
+    transform: rotate(-55.31deg);
+    transform-origin: 0 0;
+  }
+  .groupItem {
+    top: -19.16px;
+    left: 13.26px;
+    background-color: #b57aff;
+    width: 67.58px;
+    height: 66.36px;
+  }
+  .groupInner,
+  .groupItem,
+  .rectangleParent {
+    position: absolute;
+    transform: rotate(-55.31deg);
+    transform-origin: 0 0;
+  }
+  .groupInner {
+    top: 29.29px;
+    left: 42.32px;
+    background-color: #fff;
+    width: 29.76px;
+    height: 29.22px;
+  }
+  .rectangleParent {
+    top: 73.1px;
+    left: -66.83px;
+    width: 116.22px;
+    height: 80.68px;
+  }
+  .groupWrapper {
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 119px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .c9Inner,
+  .frameParent {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .frameParent {
+    background-color: #c6e74a;
+    width: 1159px;
+    height: 260px;
+    flex-direction: row;
+    padding: 0 40px;
+    justify-content: space-between;
+    position: relative;
+  }
+  .c9Inner {
+    align-self: stretch;
+    height: 360px;
+    flex-direction: column;
+    padding: 4px;
+    justify-content: center;
+  }
+  .call24Outline,
+  .layer1Icon {
+    position: relative;
+    width: 264.5px;
+    height: 59px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .call24Outline {
+    width: 18px;
+    height: 18px;
+  }
+  .div {
+    position: relative;
+    line-height: 9.75px;
+  }
+  .call24OutlineParent,
+  .frameDiv,
+  .layer1Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+  }
+  .frameDiv,
+  .layer1Parent {
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .layer1Parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .getValuableStrategy {
+    position: relative;
+    line-height: 39px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #cddd3b, #46b5e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 511px;
+    height: 137px;
+    flex-shrink: 0;
+  }
+  .vectorIcon {
+    position: relative;
+    width: 34px;
+    height: 22px;
+  }
+  .yourEmailHereParent {
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    width: 519px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .getValuableStrategyCultureParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 28px;
+    font-size: 36px;
+    color: #ced1d6;
+  }
+  .frameContainer {
+    align-self: stretch;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 380px;
+    font-size: 12px;
+    color: rgba(4, 0, 14, 0.7);
+  }
+  .copyright2023 {
+    position: relative;
+    display: inline-block;
+    width: 357px;
+    flex-shrink: 0;
+  }
+  .instagram24Outline {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .instagram24OutlineParent {
+    width: 357px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .termsConditionsParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+  .c9,
+  .copyright2023IocodParent {
+    display: flex;
+    align-items: center;
+  }
+  .copyright2023IocodParent {
+    background-color: #04000e;
+    width: 1280px;
+    height: 46px;
+    flex-direction: row;
+    padding: 0 60px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ced1d6;
+  }
+  .c9 {
+    position: relative;
+    width: 100%;
+    height: 746px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 58.8px;
+    color: #000;
+    font-family: "DM Sans";
+  }
+  

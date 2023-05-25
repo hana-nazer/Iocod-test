@@ -1,0 +1,561 @@
+.testimonials {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .sketchAnnotationElementStroIcon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .testimonialsParent {
+    position: absolute;
+    top: 106px;
+    left: calc(50% - 204px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .screenIcon {
+    position: relative;
+    border-radius: 8px;
+    width: 432.23px;
+    height: 280.28px;
+    object-fit: cover;
+  }
+  .aboutIocod {
+    color: #757e8c;
+  }
+  .kevinHarringtonAboutContainer,
+  .kevinIsOne {
+    position: relative;
+  }
+  .kevinIsOne {
+    font-size: 12px;
+    color: #757e8c;
+    display: inline-block;
+    width: 336px;
+  }
+  .kevinHarringtonAboutIocodParent,
+  .screenParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .screenParent {
+    position: absolute;
+    top: 252px;
+    left: calc(50% - 416px);
+    flex-direction: row;
+    align-items: center;
+    gap: 42px;
+    font-size: 24px;
+  }
+  .headspaceGivesMe,
+  .sliceOfThe {
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 30.6px;
+  }
+  .headspaceGivesMe {
+    position: absolute;
+    top: 0.9px;
+    left: 0;
+    width: 240.16px;
+  }
+  .sliceOfThe {
+    top: 33.3px;
+    width: 272.71px;
+  }
+  .forMe,
+  .p,
+  .sliceOfThe {
+    position: absolute;
+    left: 0;
+  }
+  .forMe {
+    top: 65.7px;
+    font-size: 24.3px;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 78.15px;
+    height: 30.6px;
+  }
+  .p {
+    top: 79.2px;
+    width: 279px;
+    height: 97.2px;
+  }
+  .divcss19k8107 {
+    position: absolute;
+    width: calc(100% - 57.6px);
+    top: 25.2px;
+    right: 28.8px;
+    left: 28.8px;
+    height: 176.4px;
+  }
+  .nadienNewMexico,
+  .onPrioritizingSelfCare {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.13px;
+    line-height: 16.2px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 113.63px;
+    height: 15.3px;
+  }
+  .onPrioritizingSelfCare {
+    top: 24.3px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+    width: 112.75px;
+    height: 12.6px;
+  }
+  .divcss19k81071 {
+    position: absolute;
+    width: calc(100% - 57.6px);
+    top: 320.4px;
+    right: 28.8px;
+    left: 28.8px;
+    height: 37.8px;
+    font-size: 11.7px;
+    color: #67646a;
+  }
+  .frameIcon {
+    position: absolute;
+    top: 25.2px;
+    left: calc(50% - 139.5px);
+    width: 67.5px;
+    height: 72px;
+  }
+  .divcssS1fwqh {
+    position: absolute;
+    top: 14.4px;
+    left: 358.2px;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+  }
+  .onManagingThe,
+  .theStressAnd {
+    position: absolute;
+    left: 0;
+    font-weight: 500;
+  }
+  .theStressAnd {
+    top: 0.9px;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    display: inline-block;
+    width: 279px;
+    height: 30.6px;
+  }
+  .onManagingThe {
+    top: 23.4px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+  }
+  .divcssS1fwqh1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+  }
+  .onMeditationsPositive,
+  .ourHome,
+  .peaceAndTolerance,
+  .rachaelUk,
+  .yourAppBrings {
+    position: absolute;
+    top: 0.9px;
+    left: 0;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 266.25px;
+    height: 30.6px;
+  }
+  .onMeditationsPositive,
+  .ourHome,
+  .peaceAndTolerance,
+  .rachaelUk {
+    top: 33.3px;
+    width: 252.15px;
+  }
+  .onMeditationsPositive,
+  .ourHome,
+  .rachaelUk {
+    top: 65.7px;
+    width: 111.54px;
+  }
+  .onMeditationsPositive,
+  .rachaelUk {
+    top: 0;
+    letter-spacing: -0.13px;
+    line-height: 16.2px;
+    width: 66.38px;
+    height: 15.3px;
+  }
+  .onMeditationsPositive {
+    top: 24.3px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+    width: 210.15px;
+    height: 12.6px;
+  }
+  .divsibling {
+    position: absolute;
+    top: 28.8px;
+    left: 716.4px;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+  }
+  .frameIcon3 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 139.5px);
+    width: 67.5px;
+    height: 72px;
+  }
+  .bestSoftwareDevelopment,
+  .infoliteBusinessLlp,
+  .peterBelgium {
+    position: absolute;
+    top: -13.3px;
+    left: -0.4px;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 255px;
+    height: 110px;
+  }
+  .infoliteBusinessLlp,
+  .peterBelgium {
+    top: 0;
+    left: 0;
+    letter-spacing: -0.13px;
+    line-height: 16.2px;
+    width: 81.52px;
+    height: 15.3px;
+  }
+  .infoliteBusinessLlp {
+    top: 24.3px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+    width: 214.86px;
+    height: 12.6px;
+  }
+  .divactive {
+    position: absolute;
+    top: 43.2px;
+    left: 1074.6px;
+    border-radius: 10.8px;
+    background-color: #f8f8f8;
+    width: 336.6px;
+    height: 383.4px;
+    font-size: 24.3px;
+  }
+  .headspaceProvidesMe {
+    top: 0.9px;
+    width: 260.46px;
+  }
+  .disconnectionFrom,
+  .feelingsAndSensations,
+  .headspaceProvidesMe,
+  .myselfAndA,
+  .negativeThoughts,
+  .withA {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 30.6px;
+  }
+  .withA {
+    top: 33.3px;
+    font-size: 24.3px;
+    width: 251.03px;
+  }
+  .disconnectionFrom,
+  .feelingsAndSensations,
+  .myselfAndA,
+  .negativeThoughts {
+    top: 65.7px;
+    width: 141.13px;
+  }
+  .disconnectionFrom,
+  .feelingsAndSensations,
+  .negativeThoughts {
+    top: 98.1px;
+    width: 213.35px;
+  }
+  .feelingsAndSensations,
+  .negativeThoughts {
+    top: 130.5px;
+    width: 200.45px;
+  }
+  .feelingsAndSensations {
+    top: 162.9px;
+    width: 261.91px;
+  }
+  .p4 {
+    position: absolute;
+    top: 79.2px;
+    left: 0;
+    width: 279px;
+    height: 194.4px;
+  }
+  .divcss19k81078 {
+    position: absolute;
+    width: calc(100% - 57.6px);
+    top: 25.2px;
+    right: 28.8px;
+    left: 28.8px;
+    height: 273.6px;
+  }
+  .keriUk,
+  .onFindingHer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.13px;
+    line-height: 16.2px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 44.38px;
+    height: 15.3px;
+  }
+  .onFindingHer {
+    top: 24.3px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+    width: 127.13px;
+    height: 12.6px;
+  }
+  .divsibling1 {
+    position: absolute;
+    top: 28.8px;
+    left: 1432.8px;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+  }
+  .changeMyLife,
+  .changingMyThoughts,
+  .davideLondon,
+  .hasAllowedMe,
+  .onUsingMeditation {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 30.6px;
+  }
+  .changingMyThoughts {
+    top: 0.9px;
+    font-size: 22.5px;
+    width: 240.1px;
+  }
+  .changeMyLife,
+  .davideLondon,
+  .hasAllowedMe,
+  .onUsingMeditation {
+    top: 33.3px;
+    width: 196.33px;
+  }
+  .changeMyLife,
+  .davideLondon,
+  .onUsingMeditation {
+    top: 65.7px;
+    width: 160.95px;
+  }
+  .davideLondon,
+  .onUsingMeditation {
+    top: 0;
+    letter-spacing: -0.13px;
+    line-height: 16.2px;
+    width: 86.45px;
+    height: 15.3px;
+  }
+  .onUsingMeditation {
+    top: 24.3px;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    color: #413d45;
+    width: 201.09px;
+    height: 12.6px;
+  }
+  .divcssS1fwqh2 {
+    position: absolute;
+    top: 14.4px;
+    left: 1791px;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+  }
+  .aHappyWorkforce {
+    position: absolute;
+    top: 0.9px;
+    left: 0;
+    letter-spacing: -0.63px;
+    line-height: 32.4px;
+    font-weight: 500;
+    display: inline-block;
+    width: 240.1px;
+    height: 30.6px;
+  }
+  .onTheBenefits {
+    margin: 0;
+  }
+  .onTheBenefitsContainer {
+    position: absolute;
+    top: 24.3px;
+    left: 0;
+    font-size: 9.9px;
+    letter-spacing: -0.11px;
+    line-height: 14.4px;
+    font-weight: 500;
+    color: #413d45;
+    display: inline-block;
+    width: 260.1px;
+    height: 12.6px;
+  }
+  .divcssS1fwqh3 {
+    position: absolute;
+    top: 0;
+    left: 2149.2px;
+    border-radius: 10.8px;
+    background-color: #f5f5f5;
+    width: 336.6px;
+    height: 383.4px;
+    opacity: 0.4;
+    font-size: 22.5px;
+  }
+  .divcssS1fwqhParent {
+    position: absolute;
+    top: 26.7px;
+    left: -603px;
+    width: 2485.8px;
+    height: 426.6px;
+  }
+  .component5,
+  .svgIcon,
+  .svgIcon1 {
+    position: absolute;
+    top: 494px;
+    left: calc(50% + 474.41px);
+    width: 28.8px;
+    height: 28.8px;
+    overflow: hidden;
+  }
+  .component5,
+  .svgIcon1 {
+    left: calc(50% + 515.2px);
+  }
+  .component5 {
+    top: 547px;
+    left: calc(50% - 640px);
+    background-color: #fff;
+    width: 1280px;
+    height: 536px;
+    font-size: 23.4px;
+    color: #413d45;
+    font-family: Inter;
+  }
+  .fintech {
+    font-family: "TT Firs Neue Trl";
+  }
+  .bornfightStudioContainer,
+  .bornfightStudioContainer1 {
+    position: absolute;
+    top: 0;
+    left: 57px;
+    line-height: 125%;
+  }
+  .bornfightStudioContainer1 {
+    left: 908px;
+  }
+  .bornfightStudioContainer2,
+  .bornfightStudioContainer3 {
+    position: absolute;
+    top: 0;
+    left: 1759px;
+    line-height: 125%;
+  }
+  .bornfightStudioContainer3 {
+    left: 2610px;
+  }
+  .marqueeText {
+    position: absolute;
+    top: 1086px;
+    left: -1840px;
+    width: 3405px;
+    height: 43px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-family: "TT Firs Neue";
+  }
+  .c7 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1164px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 48px;
+    color: #04000e;
+    font-family: "DM Sans";
+  }
+  

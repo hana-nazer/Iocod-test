@@ -1,0 +1,923 @@
+.vectorIcon {
+  position: absolute;
+  top: 336px;
+  left: 435px;
+  width: 79px;
+  height: 46px;
+  overflow: hidden;
+}
+.unleashThe {
+  margin: 0;
+}
+.unleashThePotentialContainer {
+  position: relative;
+  font-size: 59.24px;
+  letter-spacing: -0.04em;
+  display: inline-block;
+  width: 665.29px;
+  z-index: 0;
+}
+.nputYourBusiness {
+  color: rgba(255, 255, 255, 0.77);
+}
+.inputYourBusinessContainer {
+  position: relative;
+  display: inline-block;
+  width: 690px;
+  z-index: 1;
+  color: #c6e74a;
+}
+.getStarted,
+.vectorIcon1 {
+  position: relative;
+}
+.vectorIcon1 {
+  width: 34px;
+  height: 22px;
+}
+.getStartedParent {
+  border-radius: 56px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 17px 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 2;
+  color: #fff;
+}
+.spiralVectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 180.29px);
+  left: calc(50% + 9.14px);
+  width: 64.19px;
+  height: 65.98px;
+  z-index: 3;
+}
+.unleashThePotentialOfTheDParent {
+  position: absolute;
+  top: 162px;
+  left: 60px;
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #04000e;
+  width: 894px;
+  height: 701px;
+  overflow: hidden;
+}
+.image1Icon {
+  position: absolute;
+  top: 0;
+  right: -7px;
+  width: 503px;
+  height: 827px;
+  object-fit: cover;
+}
+.layer1Icon {
+  position: relative;
+  width: 118px;
+  height: 36.68px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper {
+  width: 448px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mdicellphoneWirelessIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameWrapper,
+.mdicellphoneWirelessParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mdicellphoneWirelessParent {
+  border-radius: 54px;
+  background-color: #514ed8;
+  height: 50px;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 8px;
+}
+.frameWrapper {
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 18px;
+  height: 6px;
+}
+.groupWrapper {
+  border-radius: 54px;
+  background-color: #04000e;
+  width: 50px;
+  height: 50px;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup,
+.frameParent,
+.groupWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.frameGroup {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent {
+  top: 51px;
+  left: 25px;
+  width: 1280px;
+  padding: 0 60px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.frameItem,
+.frameParent,
+.l {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #c6e74a;
+  width: 137px;
+  height: 137px;
+}
+.l {
+  top: 68.29px;
+  left: 127.85px;
+  width: 3.95px;
+  transform: rotate(95.61deg);
+}
+.e,
+.l,
+.t {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.e {
+  position: absolute;
+  top: 75.11px;
+  left: 127.02px;
+  width: 3.95px;
+  transform: rotate(101.76deg);
+}
+.t {
+  top: 81.72px;
+  left: 125.47px;
+  width: 2.63px;
+  transform: rotate(107.25deg);
+}
+.div,
+.s,
+.t {
+  position: absolute;
+}
+.div {
+  top: 86.78px;
+  left: 123.77px;
+  display: inline-block;
+  width: 1.75px;
+  height: 9.65px;
+  transform: rotate(111.64deg);
+  transform-origin: 0 0;
+}
+.s {
+  top: 90.95px;
+  left: 122.03px;
+  width: 3.51px;
+  transform: rotate(116.48deg);
+}
+.div1,
+.e1,
+.s {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div1 {
+  position: absolute;
+  top: 96.52px;
+  left: 119.09px;
+  width: 2.19px;
+  transform: rotate(121.53deg);
+}
+.e1 {
+  top: 100.75px;
+  left: 116.39px;
+  width: 3.95px;
+  transform: rotate(126.8deg);
+}
+.e1,
+.p,
+.x {
+  position: absolute;
+}
+.x {
+  top: 106.15px;
+  left: 112.16px;
+  display: inline-block;
+  width: 3.95px;
+  height: 9.65px;
+  transform: rotate(132.95deg);
+  transform-origin: 0 0;
+}
+.p {
+  top: 111.09px;
+  left: 107.35px;
+  width: 4.39px;
+  transform: rotate(139.32deg);
+}
+.l1,
+.o,
+.p {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.l1 {
+  position: absolute;
+  top: 115.66px;
+  left: 101.75px;
+  width: 2.19px;
+  transform: rotate(144.81deg);
+}
+.o {
+  top: 118.47px;
+  left: 97.6px;
+  width: 3.95px;
+  transform: rotate(150.08deg);
+}
+.e2,
+.o,
+.r {
+  position: absolute;
+}
+.r {
+  top: 121.71px;
+  left: 91.64px;
+  display: inline-block;
+  width: 2.63px;
+  height: 9.65px;
+  transform: rotate(155.57deg);
+  transform-origin: 0 0;
+}
+.e2 {
+  top: 123.88px;
+  left: 86.61px;
+  width: 3.95px;
+  transform: rotate(161.06deg);
+}
+.div2,
+.e2,
+.t1 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div2 {
+  position: absolute;
+  top: 125.91px;
+  left: 80.16px;
+  width: 2.19px;
+  transform: rotate(166.33deg);
+}
+.t1 {
+  top: 126.98px;
+  left: 75.35px;
+  width: 2.63px;
+  transform: rotate(170.95deg);
+}
+.e3,
+.h,
+.t1 {
+  position: absolute;
+}
+.h {
+  top: 127.74px;
+  left: 69.9px;
+  display: inline-block;
+  width: 4.39px;
+  height: 9.65px;
+  transform: rotate(176.66deg);
+  transform-origin: 0 0;
+}
+.e3 {
+  top: 128px;
+  left: 62.57px;
+  width: 3.95px;
+  transform: rotate(-176.97deg);
+}
+.c,
+.div3,
+.e3 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div3 {
+  position: absolute;
+  top: 127.47px;
+  left: 55.83px;
+  width: 2.19px;
+  transform: rotate(-171.7deg);
+}
+.c {
+  top: 126.66px;
+  left: 50.92px;
+  width: 3.51px;
+  transform: rotate(-166.65deg);
+}
+.c,
+.e4,
+.r1 {
+  position: absolute;
+}
+.r1 {
+  top: 125.05px;
+  left: 44.8px;
+  display: inline-block;
+  width: 2.63px;
+  height: 9.65px;
+  transform: rotate(-161.38deg);
+  transform-origin: 0 0;
+}
+.e4 {
+  top: 123.21px;
+  left: 39.65px;
+  width: 3.95px;
+  transform: rotate(-155.89deg);
+}
+.a,
+.e4,
+.t2 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.a {
+  position: absolute;
+  top: 120.26px;
+  left: 33.44px;
+  width: 3.95px;
+  transform: rotate(-149.74deg);
+}
+.t2 {
+  top: 116.69px;
+  left: 27.67px;
+  width: 2.63px;
+  transform: rotate(-144.25deg);
+}
+.e5,
+.i,
+.t2,
+.v {
+  position: absolute;
+}
+.i {
+  top: 113.48px;
+  left: 23.4px;
+  display: inline-block;
+  width: 1.75px;
+  height: 9.65px;
+  transform: rotate(-139.86deg);
+  transform-origin: 0 0;
+}
+.e5,
+.v {
+  width: 3.95px;
+}
+.v {
+  top: 110.49px;
+  left: 19.98px;
+  display: inline-block;
+  height: 9.65px;
+  transform: rotate(-134.81deg);
+  transform-origin: 0 0;
+}
+.e5 {
+  top: 105.51px;
+  left: 15.25px;
+  transform: rotate(-128.66deg);
+}
+.div4,
+.e5,
+.w {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div4 {
+  position: absolute;
+  top: 100.12px;
+  left: 11.16px;
+  width: 2.19px;
+  transform: rotate(-123.38deg);
+}
+.w {
+  top: 95.8px;
+  left: 8.38px;
+  width: 6.14px;
+  transform: rotate(-117.01deg);
+}
+.o1,
+.r2,
+.w {
+  position: absolute;
+}
+.o1 {
+  top: 87.5px;
+  left: 4.44px;
+  display: inline-block;
+  width: 3.95px;
+  height: 9.65px;
+  transform: rotate(-109.77deg);
+  transform-origin: 0 0;
+}
+.r2 {
+  top: 81.05px;
+  left: 2.3px;
+  width: 2.63px;
+  transform: rotate(-104.28deg);
+}
+.div5,
+.k,
+.r2 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.k {
+  position: absolute;
+  top: 75.75px;
+  left: 1.06px;
+  width: 3.51px;
+  transform: rotate(-99deg);
+}
+.div5 {
+  top: 69.53px;
+  left: 0.23px;
+  width: 1.75px;
+  transform: rotate(-94.17deg);
+}
+.div5,
+.div6,
+.l2 {
+  position: absolute;
+}
+.div6 {
+  top: 65.1px;
+  left: 0;
+  display: inline-block;
+  width: 2.19px;
+  height: 9.65px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.l2 {
+  top: 60.09px;
+  left: 0.09px;
+  width: 3.95px;
+  transform: rotate(-84.73deg);
+}
+.e6,
+.l2,
+.t3 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.e6 {
+  position: absolute;
+  top: 53.27px;
+  left: 0.88px;
+  width: 3.95px;
+  transform: rotate(-78.58deg);
+}
+.t3 {
+  top: 46.65px;
+  left: 2.38px;
+  width: 2.63px;
+  transform: rotate(-73.09deg);
+}
+.div7,
+.s1,
+.t3 {
+  position: absolute;
+}
+.div7 {
+  top: 41.57px;
+  left: 4.05px;
+  display: inline-block;
+  width: 1.75px;
+  height: 9.65px;
+  transform: rotate(-68.7deg);
+  transform-origin: 0 0;
+}
+.s1 {
+  top: 37.39px;
+  left: 5.77px;
+  width: 3.51px;
+  transform: rotate(-63.86deg);
+}
+.div8,
+.e7,
+.s1 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div8 {
+  position: absolute;
+  top: 31.81px;
+  left: 8.68px;
+  width: 2.19px;
+  transform: rotate(-58.81deg);
+}
+.e7 {
+  top: 27.57px;
+  left: 11.35px;
+  width: 3.95px;
+  transform: rotate(-53.54deg);
+}
+.e7,
+.p1,
+.x1 {
+  position: absolute;
+}
+.x1 {
+  top: 22.14px;
+  left: 15.55px;
+  display: inline-block;
+  width: 3.95px;
+  height: 9.65px;
+  transform: rotate(-47.39deg);
+  transform-origin: 0 0;
+}
+.p1 {
+  top: 17.17px;
+  left: 20.33px;
+  width: 4.39px;
+  transform: rotate(-41.02deg);
+}
+.l3,
+.o2,
+.p1 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.l3 {
+  position: absolute;
+  top: 12.57px;
+  left: 25.91px;
+  width: 2.19px;
+  transform: rotate(-35.53deg);
+}
+.o2 {
+  top: 9.73px;
+  left: 30.03px;
+  width: 3.95px;
+  transform: rotate(-30.26deg);
+}
+.e8,
+.o2,
+.r3 {
+  position: absolute;
+}
+.r3 {
+  top: 6.46px;
+  left: 35.98px;
+  display: inline-block;
+  width: 2.63px;
+  height: 9.65px;
+  transform: rotate(-24.77deg);
+  transform-origin: 0 0;
+}
+.e8 {
+  top: 4.26px;
+  left: 40.99px;
+  width: 3.95px;
+  transform: rotate(-19.28deg);
+}
+.div9,
+.e8,
+.t4 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div9 {
+  position: absolute;
+  top: 2.19px;
+  left: 47.43px;
+  width: 2.19px;
+  transform: rotate(-14.01deg);
+}
+.t4 {
+  top: 1.09px;
+  left: 52.24px;
+  width: 2.63px;
+  transform: rotate(-9.39deg);
+}
+.e9,
+.h1,
+.t4 {
+  position: absolute;
+}
+.h1 {
+  top: 0.29px;
+  left: 57.68px;
+  display: inline-block;
+  width: 4.39px;
+  height: 9.65px;
+  transform: rotate(-3.68deg);
+  transform-origin: 0 0;
+}
+.e9 {
+  top: 0;
+  left: 65px;
+  width: 3.95px;
+  transform: rotate(2.69deg);
+}
+.c2,
+.div10,
+.e9 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.div10 {
+  position: absolute;
+  top: 0.49px;
+  left: 71.75px;
+  width: 2.19px;
+  transform: rotate(7.96deg);
+}
+.c2 {
+  top: 1.27px;
+  left: 76.67px;
+  width: 3.51px;
+  transform: rotate(13.01deg);
+}
+.c2,
+.e10,
+.r4 {
+  position: absolute;
+}
+.r4 {
+  top: 2.84px;
+  left: 82.8px;
+  display: inline-block;
+  width: 2.63px;
+  height: 9.65px;
+  transform: rotate(18.28deg);
+  transform-origin: 0 0;
+}
+.e10 {
+  top: 4.65px;
+  left: 87.96px;
+  width: 3.95px;
+  transform: rotate(23.77deg);
+}
+.a1,
+.e10,
+.t5 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.a1 {
+  position: absolute;
+  top: 7.56px;
+  left: 94.18px;
+  width: 3.95px;
+  transform: rotate(29.92deg);
+}
+.t5 {
+  top: 11.09px;
+  left: 99.98px;
+  width: 2.63px;
+  transform: rotate(35.41deg);
+}
+.i1,
+.t5,
+.v1 {
+  position: absolute;
+}
+.i1 {
+  top: 14.29px;
+  left: 104.26px;
+  display: inline-block;
+  width: 1.75px;
+  height: 9.65px;
+  transform: rotate(39.8deg);
+  transform-origin: 0 0;
+}
+.v1 {
+  top: 17.25px;
+  left: 107.71px;
+  width: 3.95px;
+  transform: rotate(44.86deg);
+}
+.div11,
+.e11,
+.v1 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.e11 {
+  position: absolute;
+  top: 22.21px;
+  left: 112.46px;
+  width: 3.95px;
+  transform: rotate(51deg);
+}
+.div11 {
+  top: 27.57px;
+  left: 116.58px;
+  width: 2.19px;
+  transform: rotate(56.28deg);
+}
+.div11,
+.o3,
+.w1 {
+  position: absolute;
+}
+.w1 {
+  top: 31.88px;
+  left: 119.39px;
+  display: inline-block;
+  width: 6.14px;
+  height: 9.65px;
+  transform: rotate(62.65deg);
+  transform-origin: 0 0;
+}
+.o3 {
+  top: 40.15px;
+  left: 123.38px;
+  width: 3.95px;
+  transform: rotate(69.89deg);
+}
+.k1,
+.o3,
+.r5 {
+  display: inline-block;
+  height: 9.65px;
+  transform-origin: 0 0;
+}
+.r5 {
+  position: absolute;
+  top: 46.58px;
+  left: 125.56px;
+  width: 2.63px;
+  transform: rotate(75.38deg);
+}
+.k1 {
+  top: 51.88px;
+  left: 126.82px;
+  width: 3.51px;
+  transform: rotate(80.66deg);
+}
+.div12,
+.k1,
+.lParent {
+  position: absolute;
+}
+.div12 {
+  top: 58.09px;
+  left: 127.69px;
+  display: inline-block;
+  width: 1.75px;
+  height: 9.65px;
+  transform: rotate(85.49deg);
+  transform-origin: 0 0;
+}
+.lParent {
+  top: 4px;
+  left: 4px;
+  width: 127.85px;
+  height: 128px;
+}
+.ellipseParent,
+.vectorIcon2 {
+  position: absolute;
+  top: calc(50% - 68.5px);
+  left: calc(50% - 68.5px);
+  width: 137px;
+  height: 137px;
+}
+.vectorIcon2 {
+  top: calc(50% - 23.5px);
+  left: calc(50% - 15.5px);
+  width: 30.3px;
+  height: 47.75px;
+}
+.frameContainer {
+  position: absolute;
+  top: 500px;
+  left: 826px;
+  width: 137px;
+  height: 137px;
+  font-size: 11.04px;
+  color: #000;
+  font-family: "Nunito Sans";
+}
+.vuejsLogo21Icon {
+  position: relative;
+  width: 36.75px;
+  height: 32.25px;
+  object-fit: cover;
+}
+.frameInner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image2Icon {
+  position: relative;
+  width: 45px;
+  height: 33px;
+  object-fit: cover;
+}
+.pngwingIcon,
+.pngwingIcon1,
+.pngwingIcon2 {
+  position: relative;
+  width: 36px;
+  height: 33.75px;
+  object-fit: cover;
+}
+.pngwingIcon1,
+.pngwingIcon2 {
+  width: 30px;
+  height: 34.5px;
+}
+.pngwingIcon2 {
+  width: 33.55px;
+  height: 34.69px;
+}
+.vuejsLogo21Parent {
+  position: absolute;
+  top: 677px;
+  left: 0;
+  background-color: rgba(111, 92, 228, 0.06);
+  width: 882px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 27px 80px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.c1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 831px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #d9d9d9;
+  font-family: "DM Sans";
+}

@@ -1,0 +1,52 @@
+.nput {
+  font-family: "TT Firs Neue";
+}
+.input {
+  position: relative;
+  line-height: 121%;
+}
+.frameChild {
+  position: relative;
+  width: 108.03px;
+  height: 109px;
+}
+.utput {
+  font-family: "TT Firs Neue";
+  color: #e3e3e3;
+}
+.frameItem {
+  position: relative;
+  width: 109px;
+  height: 108.03px;
+}
+.inputParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.c2,
+.pp {
+  height: 116px;
+  overflow: hidden;
+}
+.pp {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 640px);
+  width: 1280px;
+}
+.c2 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  font-size: 96px;
+  color: #b4b4b4;
+  font-family: "TT Firs Neue Trl";
+}

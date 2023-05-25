@@ -1,0 +1,170 @@
+.our5Pillars {
+    margin: 0;
+  }
+  .our5PillarsContainer {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 294px);
+    letter-spacing: -0.08em;
+    line-height: 100px;
+  }
+  .our5PillarsApproachWrapper {
+    position: absolute;
+    top: 174px;
+    left: calc(50% - 243.5px);
+    width: 588px;
+    height: 200px;
+  }
+  .clipPathGroup {
+    position: absolute;
+    height: 117.45%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: -17.45%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .instinctive {
+    position: relative;
+    letter-spacing: -0.08em;
+  }
+  .alwaysIntuitionFirstthen {
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: lowercase;
+    display: none;
+    width: 182px;
+  }
+  .groupIcon,
+  .ins {
+    position: absolute;
+  }
+  .ins {
+    top: 239px;
+    left: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .groupIcon {
+    height: 42.45%;
+    width: 55.57%;
+    top: 16.5%;
+    right: 15.02%;
+    bottom: 41.05%;
+    left: 29.41%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .frame,
+  .svg {
+    position: absolute;
+    top: 0;
+  }
+  .frame {
+    left: calc(50% - 161.5px);
+    width: 323px;
+    height: 365px;
+  }
+  .svg {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .divapproacheditoslideshowInn {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 323px;
+    height: 365px;
+    overflow: hidden;
+  }
+  .ewr {
+    position: relative;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 325px;
+    height: 367px;
+  }
+  .frameChild,
+  .frameItem {
+    position: absolute;
+    height: 38.82%;
+    width: 29.85%;
+    top: 19.72%;
+    right: 59.92%;
+    bottom: 41.46%;
+    left: 10.23%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .frameItem {
+    height: 38.54%;
+    width: 29.32%;
+    top: 20.08%;
+    right: -18.62%;
+    bottom: 41.38%;
+    left: 89.3%;
+  }
+  .ins1 {
+    position: absolute;
+    top: 236px;
+    left: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .clipPathGroup2,
+  .frameInner {
+    position: absolute;
+    height: 117.45%;
+    width: 100%;
+    top: -8.73%;
+    right: 0;
+    bottom: -8.73%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .frameInner {
+    height: 38.54%;
+    width: 29.32%;
+    top: 20%;
+    right: 60.15%;
+    bottom: 41.46%;
+    left: 10.53%;
+  }
+  .ewrParent {
+    position: absolute;
+    top: calc(50% - 184px);
+    left: 889px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 36px;
+  }
+  .c5 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 96px;
+    color: #000;
+    font-family: "DM Sans";
+  }
+  
