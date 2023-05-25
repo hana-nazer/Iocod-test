@@ -50,6 +50,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    ;
   }
   .groupIcon {
     height: 42.45%;
@@ -71,6 +72,8 @@
     left: calc(50% - 161.5px);
     width: 323px;
     height: 365px;
+    background-color: #FFF496
+    ;
   }
   .svg {
     height: 100%;

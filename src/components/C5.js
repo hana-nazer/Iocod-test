@@ -13,16 +13,11 @@ const C5 = () => {
           <div className={styles.divapproacheditoslideshowInn}>
             <div className={styles.svg}>
               <div className={styles.frame}>
-                <img
-                  className={styles.clipPathGroup}
-                  alt=""
-                  src="/clip-path-group.svg"
-                />
                 <div className={styles.ins}>
                   <b className={styles.instinctive}>ORIGINAL</b>
-                  <div className={styles.alwaysIntuitionFirstthen}>
+                  {/* <div className={styles.alwaysIntuitionFirstthen}>
                     ALWAYS INTUITION FIRST,THEN WE REALLY WORK
-                  </div>
+                  </div> */}
                 </div>
                 <img className={styles.groupIcon} alt="" src="/group1.svg" />
               </div>
@@ -42,15 +37,15 @@ const C5 = () => {
                 <img className={styles.frameItem} alt="" src="/group-21.svg" />
                 <div className={styles.ins1}>
                   <b className={styles.instinctive}>INSTINCTIVE</b>
-                  <div className={styles.alwaysIntuitionFirstthen}>
+                  {/* <div className={styles.alwaysIntuitionFirstthen}>
                     ALWAYS INTUITION FIRST,THEN WE REALLY WORK
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.ewr}>
+        {/* <div className={styles.ewr}>
           <div className={styles.divapproacheditoslideshowInn}>
             <div className={styles.svg}>
               <div className={styles.frame}>
@@ -62,16 +57,16 @@ const C5 = () => {
                 <img className={styles.frameInner} alt="" src="/group-12.svg" />
                 <img className={styles.frameItem} alt="" src="/group-22.svg" />
                 <div className={styles.ins1}>
-                  <b className={styles.instinctive}>INSTINCTIVE</b>
-                  <div className={styles.alwaysIntuitionFirstthen}>
+                  <b className={styles.instinctive}>INSTINCTIVE</b> */}
+        {/* <div className={styles.alwaysIntuitionFirstthen}>
                     ALWAYS INTUITION FIRST,THEN WE REALLY WORK
-                  </div>
-                </div>
+                  </div> */}
+        {/* </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.ewr}>
+        </div> */}
+        {/* <div className={styles.ewr}>
           <div className={styles.divapproacheditoslideshowInn}>
             <div className={styles.svg}>
               <div className={styles.frame}>
@@ -91,8 +86,8 @@ const C5 = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.ewr}>
+        </div> */}
+        {/* <div className={styles.ewr}>
           <div className={styles.divapproacheditoslideshowInn}>
             <div className={styles.svg}>
               <div className={styles.frame}>
@@ -112,8 +107,8 @@ const C5 = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.ewr}>
+        </div> */}
+        {/* <div className={styles.ewr}>
           <div className={styles.divapproacheditoslideshowInn}>
             <div className={styles.svg}>
               <div className={styles.frame}>
@@ -133,7 +128,7 @@ const C5 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

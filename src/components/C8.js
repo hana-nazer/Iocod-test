@@ -11,7 +11,7 @@ const C8 = () => {
           </div>
         </div>
       </div>
-      <img className={styles.icon} alt="" src="/-4189@2x.png" />
+      <img className={styles.icon} alt="" src="/lines.png" />
       <div className={styles.divabsolute}>
         <div className={styles.divpx20Parent}>
           <div className={styles.divpx20}>
@@ -82,7 +82,7 @@ const C8 = () => {
               Your idea deserves a design
             </p>
             <p className={styles.defineTheChallenge}>
-              <span>{`process that takes it from `}</span>
+              <span>{`process that takes it from `}</span><br/>
               <span className={styles.good}>good</span>
               <span className={styles.to}>{` to `}</span>
               <span className={styles.great}>great!</span>
