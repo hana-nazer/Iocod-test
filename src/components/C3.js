@@ -1,18 +1,20 @@
 import styles from "../stylesheets/c3.module.css";
+import { Icon } from '@iconify/react';
 const C3 = () => {
   return (
     <div className={styles.c3}>
       <img
         className={styles.unsplashknux9qtr4eIcon}
         alt=""
-        src="/unsplashknux9qtr-4e@2x.png"
+        src="/splash.jpg"
       />
       <img
         className={styles.unsplashg1kr4ozfoacIcon}
         alt=""
-        src="/unsplashg1kr4ozfoac@2x.png"
+        src="/people.jpg"
       />
-      <img className={styles.c3Child} alt="" src="/group-2644.svg" />
+         <div class="c3Child"></div>
+      {/* <img className={styles.c3Child} alt="alt text" src="/group-2644.svg" /> */}
       <div className={styles.inSearchOfContainer}>
         <span>{`In search of a software development company that stands out from the rest? `}</span>
         <span className={styles.chooseUs}>Choose us!</span>
@@ -75,7 +77,8 @@ const C3 = () => {
           <div className={styles.div7}>*</div>
           <div className={styles.div8}> </div>
         </div>
-        <img className={styles.phone1Icon} alt="" src="/phone-1.svg" />
+        <Icon icon="ph:phone-thin" color="white" width="26" height="26" className={styles.phone1Icon}  />
+        {/* <img className={styles.phone1Icon} alt="" src="/phone-1.svg" /> */}
       </div>
     </div>
   );

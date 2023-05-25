@@ -1,4 +1,5 @@
 import styles from "../stylesheets/c9.module.css";
+import { Icon } from '@iconify/react';
 const C9 = () => {
   return (
     <div className={styles.c9}>
@@ -56,19 +57,21 @@ const C9 = () => {
           <img className={styles.layer1Icon} alt="" src="/layer-13.svg" />
           <div className={styles.frameDiv}>
             <div className={styles.call24OutlineParent}>
-              <img
+            <Icon icon="humbleicons:phone-call" width="26" height="26"  className={styles.call24Outline} />
+              {/* <img
                 className={styles.call24Outline}
                 alt=""
                 src="/call--24--outline1.svg"
-              />
+              /> */}
               <div className={styles.div}>+91 9847153096</div>
             </div>
             <div className={styles.call24OutlineParent}>
-              <img
+            <Icon icon="ion:mail-open-outline" width="26" height="26"  className={styles.call24Outline} />
+              {/* <img
                 className={styles.call24Outline}
                 alt=""
                 src="/open-mail--24--outline1.svg"
-              />
+              /> */}
               <div className={styles.div}>info@iocod.com</div>
             </div>
           </div>
@@ -80,33 +83,38 @@ const C9 = () => {
           </div>
           <div className={styles.yourEmailHereParent}>
             <div className={styles.calicut}>Your email here</div>
-            <img className={styles.vectorIcon} alt="" src="/vector2.svg" />
+            <Icon icon="guidance:up-arrow" width="26" height="26" rotate={1} className={styles.vectorIcon} />
+            {/* <img className={styles.vectorIcon} alt="" src="/vector2.svg" /> */}
           </div>
         </div>
       </div>
       <div className={styles.copyright2023IocodParent}>
         <div className={styles.copyright2023}>Copyright © 2023 IOCOD</div>
         <div className={styles.instagram24OutlineParent}>
-          <img
+        <Icon icon="uil:instagram"  className={styles.instagram24Outline} />
+          {/* <img
             className={styles.instagram24Outline}
             alt=""
             src="/instagram--24--outline1.svg"
-          />
-          <img
+          /> */}
+          <Icon icon="carbon:logo-facebook"   className={styles.instagram24Outline} />
+          {/* <img
             className={styles.instagram24Outline}
             alt=""
             src="/facebook--24--outline1.svg"
-          />
-          <img
+          /> */}
+          <Icon icon="formkit:linkedin" className={styles.instagram24Outline} />
+          {/* <img
             className={styles.instagram24Outline}
             alt=""
             src="/linkedin--24--outline1.svg"
-          />
-          <img
+          /> */}
+          <Icon icon="brandico:twitter-bird" color="white"  className={styles.twitter24Outline} />
+          {/* <img
             className={styles.instagram24Outline}
             alt=""
             src="/twitter--24--outline1.svg"
-          />
+          /> */}
         </div>
         <div className={styles.termsConditionsParent}>
           <div className={styles.calicut}>{`Terms & Conditions`}</div>

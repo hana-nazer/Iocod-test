@@ -847,8 +847,8 @@
 .vectorIcon2 {
   top: calc(50% - 23.5px);
   left: calc(50% - 15.5px);
-  width: 30.3px;
-  height: 47.75px;
+  width: 35.3px;
+  height: 50.75px;
 }
 .frameContainer {
   position: absolute;
@@ -898,7 +898,7 @@
 }
 .vuejsLogo21Parent {
   position: absolute;
-  top: 677px;
+  top: 700px;
   left: 0;
   background-color: rgba(111, 92, 228, 0.06);
   width: 882px;

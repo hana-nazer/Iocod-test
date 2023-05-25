@@ -231,7 +231,18 @@
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
+    background-color: white;
+    color:black
   }
+
+  .twitter24Outline{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
   .instagram24OutlineParent {
     width: 357px;
     height: 24px;

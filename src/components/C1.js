@@ -1,4 +1,5 @@
 import styles from "../stylesheets/c1.module.css";
+import { Icon } from "@iconify/react";
 const C1 = () => {
   return (
     <div className={styles.c1}>
@@ -26,7 +27,12 @@ const C1 = () => {
           </div>
           <div className={styles.getStartedParent}>
             <div className={styles.getStarted}>Get Started</div>
-            <img className={styles.vectorIcon1} alt="" src="/vector2.svg" />
+            <Icon
+              icon="guidance:up-arrow"
+              rotate={1}
+              className={styles.vectorIcon1}
+            />
+            {/* <img className={styles.vectorIcon1} alt="" src="/vector2.svg" /> */}
           </div>
           <img
             className={styles.spiralVectorIcon}
@@ -35,7 +41,8 @@ const C1 = () => {
           />
         </div>
       </div>
-      <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
+      <img className={styles.image1Icon} alt="" src="/image%201.png" />
+
       <div className={styles.frameParent}>
         <div className={styles.layer1Wrapper}>
           <img className={styles.layer1Icon} alt="" src="/layer-12.svg" />
@@ -43,20 +50,25 @@ const C1 = () => {
         <div className={styles.frameGroup}>
           <div className={styles.frameWrapper}>
             <div className={styles.mdicellphoneWirelessParent}>
-              <img
+              <Icon
+                icon="mdi:cellphone-wireless"
+                className={styles.mdicellphoneWirelessIcon}
+              />
+              {/* <img
                 className={styles.mdicellphoneWirelessIcon}
                 alt=""
                 src="/mdicellphonewireless.svg"
-              />
+              /> */}
               <div className={styles.getStarted}>Connect us</div>
             </div>
           </div>
           <div className={styles.groupWrapper}>
-            <img
+            <Icon icon="la:grip-lines" />
+            {/* <img
               className={styles.frameChild}
               alt=""
               src="/group-48097040.svg"
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -131,19 +143,21 @@ const C1 = () => {
             <div className={styles.div12}>.</div>
           </div>
         </div>
-        <img className={styles.vectorIcon2} alt="" src="/vector3.svg" />
+        <Icon
+          icon="guidance:up-arrow"
+          width="30"
+          height="30"
+          rotate={2}
+          className={styles.vectorIcon2}
+        />
+        {/* <img className={styles.vectorIcon2} alt="" src="/vector3.svg" /> */}
       </div>
       <div className={styles.vuejsLogo21Parent}>
-        <img
-          className={styles.vuejsLogo21Icon}
-          alt=""
-          src="/vuejs-logo-2-11@2x.png"
-        />
-        <div className={styles.frameInner} />
-        <img className={styles.image2Icon} alt="" src="/image-21@2x.png" />
-        <img className={styles.pngwingIcon} alt="" src="/pngwing3@2x.png" />
-        <img className={styles.pngwingIcon1} alt="" src="/pngwing4@2x.png" />
-        <img className={styles.pngwingIcon2} alt="" src="/pngwing5@2x.png" />
+        <img className={styles.vuejsLogo21Icon} alt="" src="\vue.png" />
+        <img className={styles.image2Icon} alt="" src="/img2.png" />
+        <img className={styles.pngwingIcon} alt="" src="/flutter.png" />
+        <img className={styles.pngwingIcon1} alt="" src="/js.png" />
+        <img className={styles.pngwingIcon2} alt="" src="/img5.png" />
       </div>
     </div>
   );
