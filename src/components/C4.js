@@ -3,10 +3,8 @@ const C4 = () => {
   return (
     <div className={styles.c4}>
       <div className={styles.c4Inner} />
-
       <div className={styles.button}>
         <div className={styles.buttonChild} />
-        <img className={styles.maskGroupIcon} alt="" />
         <b className={styles.buildYourLegacy}>Get Started</b>
       </div>
       <img className={styles.maskGroupIcon1} alt="" />
