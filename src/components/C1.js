@@ -4,7 +4,7 @@ const C1 = () => {
   return (
     <div className={styles.main_div}>
       <div className={styles.sub_div}>
-        <div className={styles.vectorIcon}>
+        <div className={styles.gradient}>
           <div className={styles.highlight} />
         </div>
         <div className={styles.unleashThePotentialOfTheDParent}>
@@ -32,21 +32,21 @@ const C1 = () => {
             <Icon
               icon="guidance:up-arrow"
               rotate={1}
-              className={styles.vectorIcon1}
+              className={styles.btn_arrow}
             />
           </div>
           <img
-            className={styles.spiralVectorIcon}
+            className={styles.spiralIcon}
             alt=""
             src="/spiral-vector.svg"
           />
         </div>
       </div>
-      <img className={styles.image1Icon} alt="" src="/image%201.png" />
+      <img className={styles.image1} alt="" src="/image%201.png" />
 
       <div className={styles.frameParent}>
-        <div className={styles.layer1Wrapper}>
-          <img className={styles.layer1Icon} alt="" src="/iocod-logo.png" />
+        <div className={styles.logoWrapper}>
+          <img className={styles.logo} alt="" src="/iocod-logo.png" />
         </div>
         <div className={styles.frameGroup}>
           <div className={styles.frameWrapper}>
@@ -140,15 +140,15 @@ const C1 = () => {
           width="30"
           height="30"
           rotate={2}
-          className={styles.vectorIcon2}
+          className={styles.up_arrow}
         />
       </div>
-      <div className={styles.vuejsLogo21Parent}>
+      <div className={styles.LogoParent}>
         <img className={styles.vue_icon} alt="" src="\vue.png" />
         <img className={styles.image2Icon} alt="" src="/img2.png" />
-        <img className={styles.pngwingIcon} alt="" src="/flutter.png" />
-        <img className={styles.pngwingIcon1} alt="" src="/js.png" />
-        <img className={styles.pngwingIcon2} alt="" src="/img5.png" />
+        <img className={styles.flutterIcon} alt="" src="/flutter.png" />
+        <img className={styles.jsIcon} alt="" src="/js.png" />
+        <img className={styles.Icon5} alt="" src="/img5.png" />
       </div>
     </div>
   );

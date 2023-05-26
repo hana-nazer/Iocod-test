@@ -1,4 +1,4 @@
-.vectorIcon {
+.gradient {
   position: absolute;
   top: 336px;
   left: 435px;
@@ -29,10 +29,10 @@
   color: #c6e74a;
 }
 .getStarted,
-.vectorIcon1 {
+.btn_arrow {
   position: relative;
 }
-.vectorIcon1 {
+.btn_arrow {
   width: 34px;
   height: 22px;
 }
@@ -50,7 +50,7 @@
   z-index: 2;
   color: #fff;
 }
-.spiralVectorIcon {
+.spiralIcon {
   position: absolute;
   margin: 0 !important;
   top: calc(50% - 180.29px);
@@ -79,7 +79,7 @@
   height: 701px;
   overflow: hidden;
 }
-.image1Icon {
+.image1 {
   position: absolute;
   top: 0;
   right: -7px;
@@ -87,14 +87,14 @@
   height: 827px;
   object-fit: cover;
 }
-.layer1Icon {
+.logo {
   position: relative;
   width: 118px;
   height: 36.68px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.layer1Wrapper {
+.logoWrapper {
   width: 448px;
   display: flex;
   flex-direction: row;
@@ -849,23 +849,15 @@
     transform: rotate(360deg);
   }
 }
-
-
-
-
-
-
-
-
 .ellipseParent,
-.vectorIcon2 {
+.up_arrow {
   position: absolute;
   top: calc(50% - 68.5px);
   left: calc(50% - 68.5px);
   width: 137px;
   height: 137px;
 }
-.vectorIcon2 {
+.up_arrow {
   top: calc(50% - 23.5px);
   left: calc(50% - 15.5px);
   width: 35.3px;
@@ -900,24 +892,24 @@
   height: 33px;
   object-fit: cover;
 }
-.pngwingIcon,
-.pngwingIcon1,
-.pngwingIcon2 {
+.flutterIcon,
+.jsIcon,
+.Icon5 {
   position: relative;
   width: 36px;
   height: 33.75px;
   object-fit: cover;
 }
-.pngwingIcon1,
-.pngwingIcon2 {
+.jsIcon,
+.Icon5 {
   width: 30px;
   height: 34.5px;
 }
-.pngwingIcon2 {
+.Icon5 {
   width: 33.55px;
   height: 34.69px;
 }
-.vuejsLogo21Parent {
+.LogoParent {
   position: absolute;
   top: 700px;
   left: 0;
@@ -942,9 +934,6 @@
   color: #d9d9d9;
   font-family: "DM Sans";
 }
-
-
-
 .highlight {
   position: absolute;
   top: -16px;
@@ -954,4 +943,3 @@
   transform: rotate(-45.28deg);
   transform-origin: 0 0;
 }
-
