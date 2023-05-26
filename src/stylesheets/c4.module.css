@@ -1,19 +1,16 @@
-.maskGroup {
-  position: absolute;
-  height: 178.47%;
+.main_div {
+  position: relative;
+  background-color: #121319;
   width: 100%;
-  top: 0;
-  right: 0;
-  bottom: -78.47%;
-  left: 0;
+  height: 558px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-family: "DM Sans";
 }
-.maskGroup {
-  height: 117.92%;
-  top: -32.08%;
-  bottom: 14.16%;
-  display: none;
-}
-.c4Inner {
+
+.inner_div {
   position: absolute;
   height: 117.56%;
   width: 37.96%;
@@ -25,29 +22,7 @@
   background-color: #514ed8;
   filter: blur(500px);
 }
-.rectangleIcon {
-  position: absolute;
-  top: 458px;
-  left: 0;
-  width: 1728px;
-  height: 215px;
-}
-.buttonChild,
-.groupIcon,
-.maskGroupIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1754px;
-  height: 837.3px;
-}
-.buttonChild,
-.maskGroupIcon {
-  height: 100%;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-}
+
 .buttonChild {
   height: 100%;
   width: 100%;
@@ -55,14 +30,10 @@
   bottom: 0;
   border-radius: 12px;
   background-color: #514ed8;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
-.maskGroupIcon {
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.buildYourLegacy {
+
+.get_button {
   position: absolute;
   width: 75.61%;
   top: 29.63%;
@@ -73,6 +44,7 @@
   color: #fff;
   transition: color 0.3s ease;
 }
+
 .button {
   position: absolute;
   top: 398px;
@@ -82,25 +54,16 @@
   height: 60px;
   overflow: hidden;
 }
+
 .button:hover .buttonChild {
   background-color: #c6e74a;
 }
-.button:hover .buildYourLegacy {
-  color: #000;
-}
 
-.maskGroupIcon1 {
-  position: absolute;
-  top: 132px;
-  left: 417px;
-  width: 894px;
-  height: 240px;
-  display: none;
-}
 .getAnEstimate {
   position: relative;
   line-height: 32px;
 }
+
 .tryOurCost {
   position: absolute;
   font-family: "TT Firs Neue Trl", sans-serif;
@@ -123,7 +86,8 @@
   width: 812px;
   height: 190px;
 }
-.groupWrapper {
+
+.wrapper_div {
   position: relative;
   width: 812px;
   height: 190px;
@@ -131,6 +95,7 @@
   color: #514ed8;
   font-family: "TT Firs Neue Trl";
 }
+
 .getAnEstimateParent {
   position: absolute;
   top: 40%;
@@ -143,18 +108,6 @@
   gap: 12px;
   color: #c6e74a;
 }
-.c4 {
-  position: relative;
-  background-color: #121319;
-  width: 100%;
-  height: 558px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-  font-family: "DM Sans";
-}
-
 
 .gridBackground {
   position: absolute;
