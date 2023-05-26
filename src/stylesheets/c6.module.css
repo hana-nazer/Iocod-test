@@ -49,7 +49,7 @@
   left: -7.74px;
   overflow: hidden;
 }
-.divimageImageG9ix2 {
+.sub_img1 {
   position: relative;
   width: 548.83px;
   height: 360.42px;
@@ -67,7 +67,7 @@
   left: -7.74px;
   overflow: hidden;
 }
-.divimageImageG9ix21 {
+.sub_img {
   position: relative;
   width: 548.83px;
   height: 360.44px;
@@ -110,7 +110,7 @@
 
 
 
-.frw {
+.scroll {
   top: -1.09px;
   left: 0.51px;
   width: 700.57px;
@@ -124,12 +124,12 @@
   animation: marquee 20s linear infinite;
   /* animation-delay: -5s; */
 }
-.frw,
-.scImg3,
+.scroll,
+.scrollImg,
 .ul {
   position: absolute;
 }
-.scImg3 {
+.scrollImg {
   top: 849.37px;
   left: -242px;
   width: 1590px;

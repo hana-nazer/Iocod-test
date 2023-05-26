@@ -171,27 +171,27 @@ const C6 = () => {
           </div>
         </div>
         <div className={styles.scrollingContainer}>
-          <div className={styles.scImg3}>
-            <div className={styles.frw}>
-              <div className={styles.divimageImageG9ix2}>
+          <div className={styles.scrollImg}>
+            <div className={styles.scroll}>
+              <div className={styles.sub_img1}>
                 <div className={styles.span}>
                   <img className={styles.fullImage} alt="" src="/im1.png" />
                 </div>
               </div>
 
-              <div className={styles.divimageImageG9ix21}>
+              <div className={styles.sub_img}>
                 <div className={styles.span1}>
                   <img className={styles.fullImage} alt="" src="/im2.png" />
                 </div>
               </div>
 
-              <div className={styles.divimageImageG9ix21}>
+              <div className={styles.sub_img}>
                 <div className={styles.span2}>
                   <img className={styles.fullImage} alt="" src="/im3.png" />
                 </div>
               </div>
 
-              <div className={styles.divimageImageG9ix21}>
+              <div className={styles.sub_img}>
                 <div className={styles.span3}>
                   <img className={styles.fullImage} alt="" src="/im4.png" />
                 </div>
