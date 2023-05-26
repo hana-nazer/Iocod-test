@@ -520,6 +520,7 @@
     top: 0;
     left: 57px;
     line-height: 125%;
+    /* animation: marquee 5s linear infinite; */
   }
   .bornfightStudioContainer1 {
     left: 908px;
@@ -530,12 +531,27 @@
     top: 0;
     left: 1759px;
     line-height: 125%;
+    /* animation: marquee 5s linear infinite; */
   }
   .bornfightStudioContainer3 {
     left: 2610px;
   }
+
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
   .marqueeText {
-    position: absolute;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    position: relative;
+    /* position: absolute; */
     top: 1086px;
     left: -1840px;
     width: 3405px;
@@ -559,3 +575,10 @@
     font-family: "DM Sans";
   }
   
+  .bornfightStudioContainer,
+  .bornfightStudioContainer1,
+  .bornfightStudioContainer2,
+  .bornfightStudioContainer3{
+    animation: marquee 5s linear infinite;
+
+  }

@@ -7,7 +7,6 @@ const C9 = () => {
         <div className={styles.frameParent}>
           <div className={styles.letsBuildTogetherParent}>
             <b className={styles.letsBuildTogether}>Let’s build together</b>
-            <img className={styles.groupIcon} alt="" src="/group2.svg" />
           </div>
           <div className={styles.frameGroup}>
             <div className={styles.calicutParent}>

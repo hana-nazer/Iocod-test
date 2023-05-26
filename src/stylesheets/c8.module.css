@@ -161,6 +161,7 @@
   width: 79px;
   height: 46px;
   overflow: hidden;
+  background: linear-gradient(180deg, #cedd39, #43b4e7);
 }
 .yourIdeaDeservesADesignPrParent {
   position: absolute;
@@ -181,4 +182,16 @@
   font-size: 16px;
   color: #fff;
   font-family: "DM Sans";
+}
+
+
+
+.highlight {
+  position: absolute;
+  top: -16px;
+  left: -78px;
+  width: 111.17px;
+  height: 253.12px;
+  transform: rotate(-45.28deg);
+  transform-origin: 0 0;
 }

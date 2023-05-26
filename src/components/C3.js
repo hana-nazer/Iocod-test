@@ -78,7 +78,6 @@ const C3 = () => {
           <div className={styles.div8}> </div>
         </div>
         <Icon icon="ph:phone-thin" color="white" width="26" height="26" className={styles.phone1Icon}  />
-        {/* <img className={styles.phone1Icon} alt="" src="/phone-1.svg" /> */}
       </div>
     </div>
   );

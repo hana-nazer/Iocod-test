@@ -20,8 +20,6 @@ const C2 = () => {
           </div>
           <img className={styles.frameChild} alt="" src="/group-2645.svg" />
 
-
-
           <div className={styles.input}>
             <b>I</b>
             <span className={styles.nput}>NPUT</span>
@@ -38,8 +36,6 @@ const C2 = () => {
           </div>
           <img className={styles.frameChild} alt="" src="/group-2646.svg" />
 
-
-
           <div className={styles.input}>
             <b>I</b>
             <span className={styles.nput}>NPUT</span>
@@ -55,9 +51,6 @@ const C2 = () => {
             <span className={styles.nput}>E</span>
           </div>
           <img className={styles.frameChild} alt="" src="/group-2647.svg" />
-
-
-          
         </div>
       </div>
     </div>

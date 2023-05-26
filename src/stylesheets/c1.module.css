@@ -5,6 +5,7 @@
   width: 79px;
   height: 46px;
   overflow: hidden;
+  background: linear-gradient(180deg, #cedd39, #43b4e7);
 }
 .unleashThe {
   margin: 0;
@@ -69,7 +70,7 @@
   justify-content: flex-start;
   gap: 32px;
 }
-.vectorParent {
+.sub_div {
   position: absolute;
   top: 0;
   left: 0;
@@ -880,7 +881,7 @@
   color: #000;
   font-family: "Nunito Sans";
 }
-.vuejsLogo21Icon {
+.vue_icon {
   position: relative;
   width: 36.75px;
   height: 32.25px;
@@ -930,7 +931,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.c1 {
+.main_div {
   position: relative;
   background-color: #fff;
   width: 100%;
@@ -941,3 +942,16 @@
   color: #d9d9d9;
   font-family: "DM Sans";
 }
+
+
+
+.highlight {
+  position: absolute;
+  top: -16px;
+  left: -78px;
+  width: 111.17px;
+  height: 253.12px;
+  transform: rotate(-45.28deg);
+  transform-origin: 0 0;
+}
+

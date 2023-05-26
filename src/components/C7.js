@@ -172,6 +172,9 @@ const C7 = () => {
         <img className={styles.svgIcon} alt="" src="/svg.svg" />
         <img className={styles.svgIcon1} alt="" src="/svg1.svg" />
       </div>
+
+
+      
       <div className={styles.marqueeText}>
         <div className={styles.bornfightStudioContainer}>
           <span>{`no one understands `}</span>
@@ -194,6 +197,8 @@ const C7 = () => {
           <span> better than us.</span>
         </div>
       </div>
+
+
     </div>
   );
 };

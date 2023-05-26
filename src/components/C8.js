@@ -90,6 +90,9 @@ const C8 = () => {
           </span>
         </div>
         <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <div className={styles.vectorIcon}>
+          <div className={styles.highlight} />
+        </div>
       </div>
     </div>
   );

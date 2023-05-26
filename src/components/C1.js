@@ -2,9 +2,11 @@ import styles from "../stylesheets/c1.module.css";
 import { Icon } from "@iconify/react";
 const C1 = () => {
   return (
-    <div className={styles.c1}>
-      <div className={styles.vectorParent}>
-        <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
+    <div className={styles.main_div}>
+      <div className={styles.sub_div}>
+        <div className={styles.vectorIcon}>
+          <div className={styles.highlight} />
+        </div>
         <div className={styles.unleashThePotentialOfTheDParent}>
           <div className={styles.unleashThePotentialContainer}>
             <p className={styles.unleashThe}>Unleash the</p>
@@ -53,13 +55,12 @@ const C1 = () => {
                 icon="mdi:cellphone-wireless"
                 className={styles.mdicellphoneWirelessIcon}
               />
-              
+
               <div className={styles.getStarted}>Connect us</div>
             </div>
           </div>
           <div className={styles.groupWrapper}>
             <Icon icon="la:grip-lines" />
-           
           </div>
         </div>
       </div>
@@ -143,7 +144,7 @@ const C1 = () => {
         />
       </div>
       <div className={styles.vuejsLogo21Parent}>
-        <img className={styles.vuejsLogo21Icon} alt="" src="\vue.png" />
+        <img className={styles.vue_icon} alt="" src="\vue.png" />
         <img className={styles.image2Icon} alt="" src="/img2.png" />
         <img className={styles.pngwingIcon} alt="" src="/flutter.png" />
         <img className={styles.pngwingIcon1} alt="" src="/js.png" />
