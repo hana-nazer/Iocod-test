@@ -213,12 +213,14 @@ const C7 = () => {
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
         </div>
-        <div className={styles.marqueContainer4}>
+        {/* <div className={styles.marqueContainer4}>
           <span>{`no one understands `}</span>
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
-        </div>
+        </div> */}
       </div>
+
+
     </div>
   );
 };

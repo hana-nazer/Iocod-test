@@ -514,7 +514,7 @@
   .fintech {
     font-family: "TT Firs Neue Trl";
   }
-  .marqueContainer,
+  .marqueContainer1,
   .marqueContainer2 {
     position: absolute;
     top: 0;
@@ -534,14 +534,7 @@
   .marqueConatiner4 {
     left: 2610px;
   }
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+ 
 
   .marqueeText {
     white-space: nowrap;
@@ -556,6 +549,8 @@
     font-size: 34px;
     color: #000;
     font-family: "TT Firs Neue";
+    animation: marquee 30s linear infinite;
+
   }
   .c7 {
     position: relative;
@@ -569,10 +564,16 @@
     font-family: "DM Sans";
   }
   
-  .marqueContainer,
-  .marqueContainer2,
-  .marqueContainer3,
-  .marqueConatiner4{
-    animation: marquee 5s linear infinite;
+ 
 
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }

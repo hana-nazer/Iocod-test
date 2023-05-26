@@ -5,6 +5,27 @@ const C1 = () => {
     <div className={styles.main_div}>
       <div className={styles.sub_div}>
         <svg
+          width="451"
+          height="521"
+          viewBox="0 0 451 521"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M-232.771 -29.4751C-156.062 -179.248 27.8508 -238.319 178.011 -161.412C328.172 -84.5056 387.715 99.2552 311.006 249.028C234.298 398.801 50.3849 457.872 -99.7755 380.965C-249.936 304.059 -309.479 120.298 -232.771 -29.4751Z"
+            stroke="#E3E3E3"
+            stroke-opacity="0.2"
+            stroke-width="0.5"
+          />
+          <path
+            d="M-150.711 12.5535C-97.1544 -92.0155 31.2508 -133.258 136.091 -79.563C240.931 -25.8677 282.502 102.431 228.946 207C175.389 311.569 46.9843 352.812 -57.8556 299.117C-162.696 245.421 -204.267 117.122 -150.711 12.5535Z"
+            stroke="#E3E3E3"
+            stroke-opacity="0.2"
+            stroke-width="0.5"
+          />
+        </svg>
+
+        <svg
           className={styles.gradient}
           width="79"
           height="46"
@@ -81,14 +102,9 @@ const C1 = () => {
               fill-opacity="0.8"
             />
           </svg>
-
-          {/* <img
-            className={styles.spiralIcon}
-            alt=""
-            src="/spiral-vector.svg"
-          /> */}
         </div>
       </div>
+
       <img className={styles.image1} alt="" src="/image%201.png" />
 
       <div className={styles.frameParent}>
