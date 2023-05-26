@@ -1,5 +1,16 @@
-.unsplashg1kr4ozfoacIcon,
-.unsplashknux9qtr4eIcon {
+.main_div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1301px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 64px;
+  color: #000;
+  font-family: "DM Sans";
+}
+.people,
+.splash1 {
   position: absolute;
   top: 56px;
   left: 60px;
@@ -7,18 +18,11 @@
   height: 827px;
   object-fit: cover;
 }
-.unsplashg1kr4ozfoacIcon {
+.people {
   top: 470px;
   left: 138px;
   width: 452px;
   height: 649px;
-}
-.c3Child {
-  position: absolute;
-  top: 960px;
-  left: 84px;
-  width: 542.52px;
-  height: 217.01px;
 }
 .chooseUs {
   text-decoration: underline;
@@ -59,18 +63,18 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frameChild {
+.content_line {
   align-self: stretch;
   position: relative;
   border-top: 1px solid #000;
   box-sizing: border-box;
   height: 1px;
 }
-.frameParent,
+.content,
 .s {
   position: absolute;
 }
-.frameParent {
+.content {
   top: 435px;
   left: 640px;
   display: flex;
@@ -365,7 +369,7 @@
   left: 0;
   width: 235.32px;
   height: 229.39px;
-  animation: rotate 10s infinite  ;
+  animation: rotate 10s infinite;
 }
 @keyframes rotate {
   0% {
@@ -390,8 +394,6 @@
   }
 }
 
-
-
 .phone1Icon {
   position: absolute;
   top: calc(50% - 29.92px);
@@ -409,17 +411,3 @@
   font-size: 24px;
   font-family: "TT Firs Neue";
 }
-.c3 {
-  position: relative;
-  background-color: #fff;
-  width: 100%;
-  height: 1301px;
-  overflow: hidden;
-  text-align: left;
-  font-size: 64px;
-  color: #000;
-  font-family: "DM Sans";
-}
-
-
-

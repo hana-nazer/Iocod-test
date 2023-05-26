@@ -2,19 +2,18 @@ import styles from "../stylesheets/c3.module.css";
 import { Icon } from '@iconify/react';
 const C3 = () => {
   return (
-    <div className={styles.c3}>
+    <div className={styles.main_div}>
       <img
-        className={styles.unsplashknux9qtr4eIcon}
+        className={styles.splash1}
         alt=""
         src="/splash.jpg"
       />
       <img
-        className={styles.unsplashg1kr4ozfoacIcon}
+        className={styles.people}
         alt=""
         src="/people.jpg"
       />
-         <div class="c3Child"></div>
-      {/* <img className={styles.c3Child} alt="alt text" src="/group-2644.svg" /> */}
+         {/* <div class="c3Child"></div> */}
       <div className={styles.inSearchOfContainer}>
         <span>{`In search of a software development company that stands out from the rest? `}</span>
         <span className={styles.chooseUs}>Choose us!</span>
@@ -23,19 +22,19 @@ const C3 = () => {
         Highly talented and creative programmers with excellent problem-solving
         skills help you tackle all the complex issues in your digital journey.
       </div>
-      <div className={styles.frameParent}>
+      <div className={styles.content}>
         <div className={styles.parent}>
           <b className={styles.b}>100+</b>
           <div className={styles.happyClients}>Happy Clients</div>
         </div>
-        <div className={styles.frameChild} />
+        <div className={styles.content_line} />
         <div className={styles.parent}>
           <b className={styles.b}>500+</b>
           <div className={styles.happyClients}>
             Successful project deliveries
           </div>
         </div>
-        <div className={styles.frameChild} />
+        <div className={styles.content_line} />
         <div className={styles.parent}>
           <b className={styles.b}>35+</b>
           <div className={styles.happyClients}>Awards</div>
