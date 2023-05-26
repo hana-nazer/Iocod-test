@@ -12,6 +12,16 @@ const C6 = () => {
   const [hover9, setHover9] = useState(false);
   const [hover10, setHover10] = useState(false);
 
+  const about = (
+    <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
+      we create hybrid mobile applications using flutter/React native.
+      <br />
+      Our ready to use or custom made apps can be integrated with all
+      <br />
+      our business solutions
+    </p>
+  );
+
   const mouseOver1 = () => {
     setHover1(true);
   };
@@ -102,69 +112,42 @@ const C6 = () => {
             onMouseLeave={mouseLeave1}
           >
             {hover1 ? (
-              <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-                we create hybrid mobile applications using flutter/React native.
-                <br />
-                Our ready to use or custom made apps can be integrated with all
-                <br />
-                our business solutions
-              </p>
+              about
             ) : (
               <b className={styles.mobileAppDevelopment}>Web development </b>
             )}
           </div>
-
           <div
             className={styles.mobAppDev}
             onMouseOver={mouseOver2}
             onMouseLeave={mouseLeave2}
           >
             {hover2 ? (
-              <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-                we create hybrid mobile applications using flutter/React native.
-                <br />
-                Our ready to use or custom made apps can be integrated with all
-                <br />
-                our business solutions
-              </p>
+              about
             ) : (
               <b className={styles.mobileAppDevelopment}>
                 mobile app development
               </b>
             )}
           </div>
-
           <div
             className={styles.mobAppDev}
             onMouseOver={mouseOver3}
             onMouseLeave={mouseLeave3}
           >
             {hover3 ? (
-              <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-                we create hybrid mobile applications using flutter/React native.
-                <br />
-                Our ready to use or custom made apps can be integrated with all
-                <br />
-                our business solutions
-              </p>
+              about
             ) : (
               <b className={styles.mobileAppDevelopment}>ux / ui design</b>
             )}
           </div>
-
           <div
             className={styles.mobAppDev}
             onMouseOver={mouseOver4}
             onMouseLeave={mouseLeave4}
           >
             {hover4 ? (
-              <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-                we create hybrid mobile applications using flutter/React native.
-                <br />
-                Our ready to use or custom made apps can be integrated with all
-                <br />
-                our business solutions
-              </p>
+              about
             ) : (
               <b className={styles.mobileAppDevelopment}>content strategy</b>
             )}
@@ -178,19 +161,16 @@ const C6 = () => {
                   <img className={styles.fullImage} alt="" src="/im1.png" />
                 </div>
               </div>
-
               <div className={styles.sub_img}>
                 <div className={styles.span1}>
                   <img className={styles.fullImage} alt="" src="/im2.png" />
                 </div>
               </div>
-
               <div className={styles.sub_img}>
                 <div className={styles.span2}>
                   <img className={styles.fullImage} alt="" src="/im3.png" />
                 </div>
               </div>
-
               <div className={styles.sub_img}>
                 <div className={styles.span3}>
                   <img className={styles.fullImage} alt="" src="/im4.png" />
@@ -200,22 +180,15 @@ const C6 = () => {
           </div>
         </div>
       </div>
-
       <div className={styles.weAreSpecialised}>we are specialised in</div>
-      <div className={styles.dwedParent}>
+      <div className={styles.aboutParent}>
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver5}
           onMouseLeave={mouseLeave5}
         >
           {hover5 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>
@@ -225,20 +198,13 @@ const C6 = () => {
             </b>
           )}
         </div>
-
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver6}
           onMouseLeave={mouseLeave6}
         >
           {hover6 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>
@@ -248,20 +214,13 @@ const C6 = () => {
             </b>
           )}
         </div>
-
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver7}
           onMouseLeave={mouseLeave7}
         >
           {hover7 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>
@@ -271,20 +230,13 @@ const C6 = () => {
             </b>
           )}
         </div>
-
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver8}
           onMouseLeave={mouseLeave8}
         >
           {hover8 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>
@@ -294,20 +246,13 @@ const C6 = () => {
             </b>
           )}
         </div>
-
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver9}
           onMouseLeave={mouseLeave9}
         >
           {hover9 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>
@@ -317,20 +262,13 @@ const C6 = () => {
             </b>
           )}
         </div>
-
         <div
-          className={styles.dwed}
+          className={styles.about}
           onMouseOver={mouseOver10}
           onMouseLeave={mouseLeave10}
         >
           {hover10 ? (
-            <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
-              we create hybrid mobile applications using flutter/React native.
-              <br />
-              Our ready to use or custom made apps can be integrated with all
-              <br />
-              our business solutions
-            </p>
+            about
           ) : (
             <b className={styles.investmentManagementPortalContainer}>
               <span className={styles.investmentManagementPortalContainer1}>

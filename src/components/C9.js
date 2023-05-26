@@ -75,7 +75,6 @@ const C9 = () => {
               iocod
             </span>
           </div>
-
           <div className={styles.frameDiv}>
             <div className={styles.call24OutlineParent}>
               <Icon
@@ -84,7 +83,6 @@ const C9 = () => {
                 height="26"
                 className={styles.call24Outline}
               />
-
               <div className={styles.div}>+91 9847153096</div>
             </div>
             <div className={styles.call24OutlineParent}>
@@ -94,7 +92,6 @@ const C9 = () => {
                 height="26"
                 className={styles.call24Outline}
               />
-
               <div className={styles.div}>info@iocod.com</div>
             </div>
           </div>

@@ -181,7 +181,7 @@
   width: 699px;
   flex-shrink: 0;
 }
-.dwed {
+.about {
   border-bottom: 1px solid #5f5f5f;
   box-sizing: border-box;
   width: 1130px;
@@ -192,7 +192,9 @@
   align-items: center;
   justify-content: flex-end;
 }
-.dwedParent {
+
+
+.aboutParent {
   position: absolute;
   top: 941px;
   left: 115px;

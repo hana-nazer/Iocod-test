@@ -12,9 +12,9 @@ const C8 = () => {
         </div>
       </div>
       <img className={styles.icon} alt="" src="/lines.png" />
-      <div className={styles.divabsolute}>
-        <div className={styles.divpx20Parent}>
-          <div className={styles.divpx20}>
+      <div className={styles.empathizeParent}>
+        <div className={styles.min_div}>
+          <div className={styles.word}>
             <div className={styles.empathize}>Empathize</div>
           </div>
           <div className={styles.defineTheChallengeContainer}>
@@ -26,8 +26,8 @@ const C8 = () => {
         </div>
       </div>
       <div className={styles.divabsolute1}>
-        <div className={styles.divpx20Parent}>
-          <div className={styles.divpx20}>
+        <div className={styles.min_div}>
+          <div className={styles.word}>
             <div className={styles.empathize}>Define</div>
           </div>
           <div className={styles.defineTheChallengeContainer}>
@@ -40,8 +40,8 @@ const C8 = () => {
           </div>
         </div>
       </div>
-      <div className={styles.divpx20Container}>
-        <div className={styles.divpx20}>
+      <div className={styles.ideateContainer}>
+        <div className={styles.word}>
           <div className={styles.empathize}>Ideate</div>
         </div>
         <div className={styles.brainstormIdeasGoodContainer}>
@@ -54,7 +54,7 @@ const C8 = () => {
         </div>
       </div>
       <div className={styles.frameDiv}>
-        <div className={styles.divpx20}>
+        <div className={styles.word}>
           <div className={styles.empathize}>Prototype</div>
         </div>
         <div className={styles.brainstormIdeasGoodContainer}>
@@ -64,8 +64,8 @@ const C8 = () => {
           <p className={styles.defineTheChallenge}>cheap and fast.</p>
         </div>
       </div>
-      <div className={styles.divpx20Parent1}>
-        <div className={styles.divpx20}>
+      <div className={styles.testParent}>
+        <div className={styles.word}>
           <div className={styles.empathize}>Test</div>
         </div>
         <div className={styles.brainstormIdeasGoodContainer}>
@@ -90,7 +90,6 @@ const C8 = () => {
             </p>
           </span>
         </div>
-
         <svg
           className={styles.vectorIcon}
           width="79"

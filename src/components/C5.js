@@ -38,10 +38,11 @@ const C5 = () => {
           <div className={styles.inner_div1}>
             <div className={styles.svg}>
               <div className={styles.frame}>
-                <img className={styles.frameChild} alt="not found" src= "image.png" />
-               {/* -------------------------- */}
-               
-               {/* -------------------------------- */}
+                <img
+                  className={styles.frameChild}
+                  alt="not found"
+                  src="image.png"
+                />
                 <div className={styles.ins1}>
                   <b className={styles.text}>INSTINCTIVE</b>
                 </div>

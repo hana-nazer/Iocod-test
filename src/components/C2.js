@@ -38,7 +38,6 @@ const C2 = () => {
       <circle cx="53.5" cy="55" r="4.5" fill="#C6E74A" />
     </svg>
   );
-
   return (
     <div className={styles.c2}>
       <div className={styles.pp}>
@@ -48,7 +47,6 @@ const C2 = () => {
             <span className={styles.nput}>NPUT</span>
           </div>
           {circle}
-
           <div className={styles.input}>
             <b>O</b>
             <span className={styles.utput}>UTPUT</span>
