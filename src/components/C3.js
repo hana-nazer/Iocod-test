@@ -34,7 +34,7 @@ const C3 = () => {
             Successful project deliveries
           </div>
         </div>
-        <div className={styles.content_line} />
+        <div className={styles.content_lin} />
         <div className={styles.parent}>
           <b className={styles.b}>35+</b>
           <div className={styles.happyClients}>Awards</div>

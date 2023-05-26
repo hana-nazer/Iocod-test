@@ -235,10 +235,8 @@
   left: 156.63px;
   transform: rotate(24.37deg);
 }
-.h,
-.h1 {
-  font-family: "TT Firs Neue Trl";
-}
+
+
 .h {
   position: absolute;
   top: 17.01px;
@@ -409,5 +407,4 @@
   width: 235.32px;
   height: 229.39px;
   font-size: 24px;
-  font-family: "TT Firs Neue";
 }

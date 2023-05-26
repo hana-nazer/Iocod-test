@@ -1,4 +1,21 @@
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../../fonts/TT Firs Neue Bold Outline Trial.otf");
+}
 
+@font-face {
+  font-family: "TT Firs Neue Trl";
+  src: url("../../fonts/TT Firs Neue Trial Bold.ttf");
+}
+
+.main {
+  width: 50%;
+}
+
+.iocod {
+
+  font-family: "TT Firs Neue Trl";
+}
 
 .nput {
   font-family: "TT Firs Neue";
@@ -17,7 +34,6 @@
 
 .utput {
   font-family: "TT Firs Neue";
-  color: #e3e3e3;
 }
 
 .frameItem {
