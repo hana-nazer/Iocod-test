@@ -5,7 +5,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .sketchAnnotationElementStroIcon {
+  .annotation {
     position: relative;
     width: 80px;
     height: 80px;
@@ -97,7 +97,7 @@
     width: 279px;
     height: 97.2px;
   }
-  .divcss19k8107 {
+  .sub_div {
     position: absolute;
     width: calc(100% - 57.6px);
     top: 25.2px;
@@ -127,7 +127,7 @@
     width: 112.75px;
     height: 12.6px;
   }
-  .divcss19k81071 {
+  .sub_div2 {
     position: absolute;
     width: calc(100% - 57.6px);
     top: 320.4px;
@@ -144,7 +144,7 @@
     width: 67.5px;
     height: 72px;
   }
-  .divcssS1fwqh {
+  .review1Child {
     position: absolute;
     top: 14.4px;
     left: 358.2px;
@@ -480,16 +480,16 @@
     opacity: 0.4;
     font-size: 22.5px;
   }
-  .divcssS1fwqhParent {
+  .review1Parent {
     position: absolute;
     top: 26.7px;
     left: -603px;
     width: 2485.8px;
     height: 426.6px;
   }
-  .component5,
-  .svgIcon,
-  .svgIcon1 {
+  .review,
+  .img1,
+  .img2 {
     position: absolute;
     top: 494px;
     left: calc(50% + 474.41px);
@@ -497,11 +497,11 @@
     height: 28.8px;
     overflow: hidden;
   }
-  .component5,
-  .svgIcon1 {
+  .review,
+  .img2 {
     left: calc(50% + 515.2px);
   }
-  .component5 {
+  .review {
     top: 547px;
     left: calc(50% - 640px);
     background-color: #fff;
@@ -514,30 +514,26 @@
   .fintech {
     font-family: "TT Firs Neue Trl";
   }
-  .bornfightStudioContainer,
-  .bornfightStudioContainer1 {
+  .marqueContainer,
+  .marqueContainer2 {
     position: absolute;
     top: 0;
     left: 57px;
     line-height: 125%;
-    /* animation: marquee 5s linear infinite; */
   }
-  .bornfightStudioContainer1 {
+  .marqueContainer2 {
     left: 908px;
   }
-  .bornfightStudioContainer2,
-  .bornfightStudioContainer3 {
+  .marqueContainer3,
+  .marqueConatiner4 {
     position: absolute;
     top: 0;
     left: 1759px;
     line-height: 125%;
-    /* animation: marquee 5s linear infinite; */
   }
-  .bornfightStudioContainer3 {
+  .marqueConatiner4 {
     left: 2610px;
   }
-
-
   @keyframes marquee {
     0% {
       transform: translateX(100%);
@@ -549,9 +545,7 @@
 
   .marqueeText {
     white-space: nowrap;
-    /* overflow: hidden; */
     position: relative;
-    /* position: absolute; */
     top: 1086px;
     left: -1840px;
     width: 3405px;
@@ -575,10 +569,10 @@
     font-family: "DM Sans";
   }
   
-  .bornfightStudioContainer,
-  .bornfightStudioContainer1,
-  .bornfightStudioContainer2,
-  .bornfightStudioContainer3{
+  .marqueContainer,
+  .marqueContainer2,
+  .marqueContainer3,
+  .marqueConatiner4{
     animation: marquee 5s linear infinite;
 
   }

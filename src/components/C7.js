@@ -4,11 +4,7 @@ const C7 = () => {
     <div className={styles.c7}>
       <div className={styles.testimonialsParent}>
         <div className={styles.testimonials}>Testimonials</div>
-        <img
-          className={styles.sketchAnnotationElementStroIcon}
-          alt=""
-          src="-----------"
-        />
+        <img className={styles.annotation} alt="" src="-----------" />
       </div>
       <div className={styles.screenParent}>
         <img className={styles.screenIcon} alt="" src="/video.jpg" />
@@ -30,10 +26,11 @@ const C7 = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component5}>
-        <div className={styles.divcssS1fwqhParent}>
-          <div className={styles.divcssS1fwqh}>
-            <div className={styles.divcss19k8107}>
+
+      <div className={styles.review}>
+        <div className={styles.review1Parent}>
+          <div className={styles.review1Child}>
+            <div className={styles.sub_div}>
               <div className={styles.p}>
                 <div className={styles.headspaceGivesMe}>
                   Headspace gives me a
@@ -44,7 +41,8 @@ const C7 = () => {
                 <div className={styles.forMe}>for me.</div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+
+            <div className={styles.sub_div2}>
               <div className={styles.nadienNewMexico}>Nadien, New Mexico</div>
               <div className={styles.onPrioritizingSelfCare}>
                 on prioritizing self-care
@@ -52,8 +50,9 @@ const C7 = () => {
             </div>
             <img className={styles.frameIcon} alt="" src="/frame7.svg" />
           </div>
+
           <div className={styles.divcssS1fwqh1}>
-            <div className={styles.divcss19k8107}>
+            <div className={styles.sub_div}>
               <div className={styles.p}>
                 <div className={styles.theStressAnd}>
                   The stress and loneliness courses … taught me how to comfort
@@ -61,7 +60,7 @@ const C7 = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.nadienNewMexico}>Alicia, Canada</div>
               <div className={styles.onManagingThe}>
                 on managing the trauma of sexual assault
@@ -70,7 +69,7 @@ const C7 = () => {
             <img className={styles.frameIcon} alt="" src="/frame8.svg" />
           </div>
           <div className={styles.divsibling}>
-            <div className={styles.divcss19k8107}>
+            <div className={styles.sub_div}>
               <div className={styles.p}>
                 <div className={styles.yourAppBrings}>
                   Your app brings so much
@@ -81,7 +80,7 @@ const C7 = () => {
                 <div className={styles.ourHome}>our home.</div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.rachaelUk}>Rachael, UK</div>
               <div className={styles.onMeditationsPositive}>
                 on meditation’s positive effect on family life
@@ -90,7 +89,7 @@ const C7 = () => {
             <img className={styles.frameIcon} alt="" src="/frame9.svg" />
           </div>
           <div className={styles.divactive}>
-            <div className={styles.divcss19k8107}>
+            <div className={styles.sub_div}>
               <img className={styles.frameIcon3} alt="" src="/frame3.svg" />
               <div className={styles.p}>
                 <div
@@ -98,7 +97,7 @@ const C7 = () => {
                 >{`Best software development company `}</div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.peterBelgium}>Peter, Belgium</div>
               <div className={styles.infoliteBusinessLlp}>
                 Infolite Business LLP
@@ -124,7 +123,7 @@ const C7 = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.keriUk}>Keri, UK</div>
               <div className={styles.onFindingHer}>
                 on finding her happy place
@@ -133,7 +132,7 @@ const C7 = () => {
             <img className={styles.frameIcon} alt="" src="/frame4.svg" />
           </div>
           <div className={styles.divcssS1fwqh2}>
-            <div className={styles.divcss19k8107}>
+            <div className={styles.sub_div}>
               <div className={styles.p}>
                 <div className={styles.changingMyThoughts}>
                   Changing my thoughts
@@ -142,7 +141,7 @@ const C7 = () => {
                 <div className={styles.changeMyLife}>change my life.</div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.davideLondon}>Davide, London</div>
               <div className={styles.onUsingMeditation}>
                 on using meditation to turn his life around
@@ -151,14 +150,14 @@ const C7 = () => {
             <img className={styles.frameIcon} alt="" src="/frame10.svg" />
           </div>
           <div className={styles.divcssS1fwqh3}>
-            <div className={styles.divcss19k8107}>
+            <div className={styles.sub_div}>
               <div className={styles.p}>
                 <div className={styles.aHappyWorkforce}>
                   A happy workforce leads to a happy work environment.
                 </div>
               </div>
             </div>
-            <div className={styles.divcss19k81071}>
+            <div className={styles.sub_div2}>
               <div className={styles.davideLondon}>Jaime, Spain</div>
               <div className={styles.onTheBenefitsContainer}>
                 <p className={styles.onTheBenefits}>
@@ -169,36 +168,32 @@ const C7 = () => {
             <img className={styles.frameIcon} alt="" src="/frame6.svg" />
           </div>
         </div>
-        <img className={styles.svgIcon} alt="" src="/svg.svg" />
-        <img className={styles.svgIcon1} alt="" src="/svg1.svg" />
+        <img className={styles.img1} alt="" src="/svg.svg" />
+        <img className={styles.img2} alt="" src="/svg1.svg" />
       </div>
 
-
-      
       <div className={styles.marqueeText}>
-        <div className={styles.bornfightStudioContainer}>
+        <div className={styles.marqueContainer1}>
           <span>{`no one understands `}</span>
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
         </div>
-        <div className={styles.bornfightStudioContainer1}>
+        <div className={styles.marqueContainer2}>
           <span>{`no one understands `}</span>
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
         </div>
-        <div className={styles.bornfightStudioContainer2}>
+        <div className={styles.marqueContainer3}>
           <span>{`no one understands `}</span>
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
         </div>
-        <div className={styles.bornfightStudioContainer3}>
+        <div className={styles.marqueContainer4}>
           <span>{`no one understands `}</span>
           <b className={styles.fintech}>fintech</b>
           <span> better than us.</span>
         </div>
       </div>
-
-
     </div>
   );
 };
