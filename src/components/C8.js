@@ -125,10 +125,6 @@ const C8 = () => {
             </clipPath>
           </defs>
         </svg>
-        {/* <img className={styles.vectorIcon} alt="" src="/vector.svg" /> */}
-        {/* <div className={styles.vectorIcon}>
-          <div className={styles.highlight} />
-        </div> */}
       </div>
     </div>
   );

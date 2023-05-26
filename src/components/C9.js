@@ -53,7 +53,13 @@ const C9 = () => {
       </div>
       <div className={styles.frameContainer}>
         <div className={styles.layer1Parent}>
-          <div style={{ display: "flex", alignItems: "center", position:"relative" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              position: "relative",
+            }}
+          >
             <img className={styles.layer1Icon} alt="" src="/iocod-logo.png" />
             <span
               style={{
@@ -114,14 +120,11 @@ const C9 = () => {
         <div className={styles.copyright2023}>Copyright © 2023 IOCOD</div>
         <div className={styles.instagram24OutlineParent}>
           <Icon icon="uil:instagram" className={styles.instagram24Outline} />
-
           <Icon
             icon="carbon:logo-facebook"
             className={styles.instagram24Outline}
           />
-
           <Icon icon="formkit:linkedin" className={styles.instagram24Outline} />
-
           <Icon
             icon="brandico:twitter-bird"
             color="white"

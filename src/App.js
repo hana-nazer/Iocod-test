@@ -10,7 +10,7 @@ import C8 from "./components/C8";
 import C9 from "./components/C9";
 function App() {
   return (
-    <>
+    <div>
       <C1 />
       <C2/>
       <C3/>
@@ -20,7 +20,7 @@ function App() {
       <C7/>
       <C8/>
       <C9/>
-    </>
+    </div>
   );
 }
 

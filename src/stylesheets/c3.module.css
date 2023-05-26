@@ -25,12 +25,16 @@
   height: 649px;
 }
 .chooseUs {
-  text-decoration: underline;
+  
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(93.83deg, #cddd3b, #46b5e4)1;
   font-weight: 500;
   background: linear-gradient(93.83deg, #cddd3b, #46b5e4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 .inSearchOfContainer {
   position: absolute;
   top: 925px;
