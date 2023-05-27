@@ -121,9 +121,30 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 20.03px;
-  animation: marquee 20s linear infinite;
-  /* animation-delay: -5s; */
+  animation:  marquee-keywords 10s linear infinite;
 }
+
+@keyframes marquee-keywords {
+  0% {
+      transform: translate(0, 0);
+  }
+
+  100% {
+      transform: translate(-100%, 0);
+  }
+}
+
+
+@-webkit-keyframes marquee-keywords {
+  0% {
+      -webkit-transform: translate(0, 0);
+  }
+
+  100% {
+      -webkit-transform: translate(-100%, 0);
+  }
+}
+
 .scroll,
 .scrollImg,
 .ul {
@@ -139,17 +160,8 @@
   transform-origin: 0 0;
   opacity: 0.5;
 }
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  50% {
-    transform: translateX(-100%); /* Move to the left */
-  }
-  100% {
-    transform: translateX(100%); /* Move back to the right */
-  }
-}
+
+
 
 .ul {
   top: 88.12px;

@@ -203,23 +203,23 @@ const C7 = () => {
         </div>
       </div>
 
-      <div className={styles.marqueeText}>
-        <div className={styles.marqueContainer1}>
-          <span>{`no one understands `}</span>
-          <b className={styles.fintech}>fintech</b>
-          <span> better than us.</span>
+        <div className={styles.marqueeText}>
+          <div className={styles.marqueContainer1}>
+            <span>{`no one understands `}</span>
+            <b className={styles.fintech}>fintech</b>
+            <span> better than us.</span>
+          </div>
+          <div className={styles.marqueContainer2}>
+            <span>{`no one understands `}</span>
+            <b className={styles.fintech}>fintech</b>
+            <span> better than us.</span>
+          </div>
+          <div className={styles.marqueContainer3}>
+            <span>{`no one understands `}</span>
+            <b className={styles.fintech}>fintech</b>
+            <span> better than us.</span>
+          </div>
         </div>
-        <div className={styles.marqueContainer2}>
-          <span>{`no one understands `}</span>
-          <b className={styles.fintech}>fintech</b>
-          <span> better than us.</span>
-        </div>
-        <div className={styles.marqueContainer3}>
-          <span>{`no one understands `}</span>
-          <b className={styles.fintech}>fintech</b>
-          <span> better than us.</span>
-        </div>
-      </div>
     </div>
   );
 };
