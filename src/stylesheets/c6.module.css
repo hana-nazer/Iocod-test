@@ -121,27 +121,16 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 20.03px;
-  animation:  marquee-keywords 10s linear infinite;
+  animation:  marquee 10s linear infinite;
 }
 
-@keyframes marquee-keywords {
+@keyframes marquee {
   0% {
       transform: translate(0, 0);
   }
 
   100% {
       transform: translate(-100%, 0);
-  }
-}
-
-
-@-webkit-keyframes marquee-keywords {
-  0% {
-      -webkit-transform: translate(0, 0);
-  }
-
-  100% {
-      -webkit-transform: translate(-100%, 0);
   }
 }
 
