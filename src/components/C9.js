@@ -112,7 +112,13 @@ const C9 = () => {
             />
           </div>
         </div>
+
+
+
       </div>
+
+
+
       <div className={styles.copyright2023IocodParent}>
         <div className={styles.copyright2023}>Copyright © 2023 IOCOD</div>
         <div className={styles.instagram24OutlineParent}>
@@ -134,6 +140,9 @@ const C9 = () => {
           <div className={styles.calicut}>Cancellation</div>
         </div>
       </div>
+
+
+      
     </div>
   );
 };

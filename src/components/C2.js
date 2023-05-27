@@ -39,30 +39,29 @@ const C2 = () => {
     </svg>
   );
   return (
-    <div className={styles.c2}>
-      <div className={styles.inputParent}>
-        {circle}
-        <div className={styles.input}>
-          <b className={styles.iocod}>I</b>
-          <span className={styles.nput}>NPUT</span>
-        </div>
-        {circle}
-        <div className={styles.input}>
-          <b>O</b>
-          <span className={styles.utput}>UTPUT</span>
-        </div>
-        {circle}
-        <div className={styles.input}>
-          <b>COD</b>
-          <span className={styles.nput}>E</span>
+    <>
+      <div className={styles.c2}>
+        <div className={styles.inputParent}>
+          {circle}
+          <div className={styles.input}>
+            <b className={styles.iocod}>I</b>
+            <span className={styles.nput}>NPUT</span>
+          </div>
+          {circle}
+          <div className={styles.input}>
+            <b>O</b>
+            <span className={styles.utput}>UTPUT</span>
+          </div>
+          {circle}
+          <div className={styles.input}>
+            <b>COD</b>
+            <span className={styles.nput}>E</span>
+          </div>
+          {circle}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
 export default C2;
-
-
-
-

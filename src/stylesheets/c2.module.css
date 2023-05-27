@@ -89,3 +89,34 @@
   color: #b4b4b4;
   font-family: "TT Firs Neue Trl";
 }
+
+
+
+.marquee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+
+.marquee > * {
+  -webkit-animation: marquee 5s linear infinite both alternate;
+  animation: marquee 5s linear infinite both alternate;
+}
+@-webkit-keyframes marquee {
+  to {
+    transform: translateX(min(100cqw - 100%, 0px));
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(min(100cqw - 100%, 0px));
+  }
+}
