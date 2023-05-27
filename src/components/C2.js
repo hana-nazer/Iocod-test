@@ -40,23 +40,21 @@ const C2 = () => {
   );
   return (
     <div className={styles.c2}>
-      <div className={styles.pp}>
-        <div className={styles.inputParent}>
-          <div className={styles.input}>
-            <b className={styles.iocod}>I</b>
-            <span className={styles.nput}>NPUT</span>
-          </div>
-          {circle}
-          <div className={styles.input}>
-            <b>O</b>
-            <span className={styles.utput}>UTPUT</span>
-          </div>
-          {circle}
-          <div className={styles.input}>
-            <b>COD</b>
-            <span className={styles.nput}>E</span>
-          </div>
-          {circle}
+      <div className={styles.inputParent}>
+        {circle}
+        <div className={styles.input}>
+          <b className={styles.iocod}>I</b>
+          <span className={styles.nput}>NPUT</span>
+        </div>
+        {circle}
+        <div className={styles.input}>
+          <b>O</b>
+          <span className={styles.utput}>UTPUT</span>
+        </div>
+        {circle}
+        <div className={styles.input}>
+          <b>COD</b>
+          <span className={styles.nput}>E</span>
         </div>
       </div>
     </div>
@@ -64,3 +62,7 @@ const C2 = () => {
 };
 
 export default C2;
+
+
+
+

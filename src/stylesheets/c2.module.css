@@ -48,24 +48,20 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  width: 100%;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: alternate
 }
 
 .c2,
 .pp {
-  height: 116px;
+  height: 119px;
 }
 
-.pp {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 640px);
-  /* width: 1280px; */
-  width: 100vw;
-  animation-name: move;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
+
 
 @keyframes move {
   0% {
@@ -87,10 +83,9 @@
 
 .c2 {
   position: relative;
-  background-color: #fff;
-  width: 100%;
+  overflow: hidden;
   text-align: left;
-  font-size: 96px;
+  font-size: 80px;
   color: #b4b4b4;
   font-family: "TT Firs Neue Trl";
 }
