@@ -224,6 +224,7 @@
     display: inline-block;
     width: 357px;
     flex-shrink: 0;
+    margin-left: 50px;
   }
   .instagram24Outline {
     position: relative;
@@ -258,6 +259,7 @@
     align-items: flex-end;
     justify-content: flex-start;
     gap: 29px;
+    margin-right: 50px;
   }
   .c9,
   .copyright2023IocodParent {
@@ -266,11 +268,12 @@
   }
   .copyright2023IocodParent {
     background-color: #04000e;
-    width: 1280px;
+    overflow: hidden;
+    width: 100%;
     height: 46px;
     flex-direction: row;
     padding: 0 60px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     justify-content: space-between;
     font-size: 14px;
     color: #ced1d6;
@@ -285,5 +288,6 @@
     font-size: 58.8px;
     color: #000;
     font-family: "DM Sans";
+    overflow: hidden;
   }
   
