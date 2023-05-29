@@ -1,6 +1,7 @@
-import styles from "../stylesheets/c9.module.css";
+import React from 'react'
+import styles from "../stylesheets/footer.module.css";
 import { Icon } from "@iconify/react";
-const C9 = () => {
+function Footer() {
   return (
     <div className={styles.c9}>
       <div className={styles.c9Inner}>
@@ -136,7 +137,7 @@ const C9 = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default C9;
+export default Footer

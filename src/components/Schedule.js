@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../stylesheets/c3.module.css";
+import styles from "../stylesheets/splash.module.css";
 
 function Schedule() {
   return (

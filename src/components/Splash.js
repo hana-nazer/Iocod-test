@@ -1,7 +1,8 @@
-import styles from "../stylesheets/c3.module.css";
+import React from 'react'
+import styles from "../stylesheets/splash.module.css";
 import { Icon } from "@iconify/react";
 import Schedule from "./Schedule";
-const C3 = () => {
+function Splash() {
   return (
     <div className={styles.main_div}>
       <img className={styles.splash1} alt="" src="/splash.jpg" />
@@ -43,7 +44,7 @@ const C3 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default C3;
+export default Splash

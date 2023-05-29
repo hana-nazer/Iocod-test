@@ -1,7 +1,7 @@
-import styles from "../stylesheets/c1.module.css";
+import styles from "../stylesheets/banner.module.css";
 import { Icon } from "@iconify/react";
 import Explore from "./Explore";
-const C1 = () => {
+const Banner = () => {
   return (
     <div className={styles.main_div}>
       <div className={styles.sub_div}>
@@ -169,4 +169,4 @@ const C1 = () => {
   );
 };
 
-export default C1;
+export default Banner;

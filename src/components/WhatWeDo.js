@@ -1,6 +1,9 @@
+import React from "react";
 import { useState } from "react";
-import styles from "../stylesheets/c6.module.css";
-const C6 = () => {
+import styles from "../stylesheets/whatwedo.module.css";
+
+
+function WhatWeDo() {
   const [hover1, setHover1] = useState(false);
   const [hover2, setHover2] = useState(false);
   const [hover3, setHover3] = useState(false);
@@ -281,6 +284,6 @@ const C6 = () => {
       </div>
     </div>
   );
-};
+}
 
-export default C6;
+export default WhatWeDo;

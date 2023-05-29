@@ -1,8 +1,10 @@
-import styles from "../stylesheets/c8.module.css";
-const C8 = () => {
+import React from "react";
+import styles from "../stylesheets/letstalk.module.css";
+
+
+function LetsTalk() {
   return (
     <>
-      
       <div className={styles.c8}>
         <div className={styles.areYouReadyToGoParent}>
           <div className={styles.areYouReady}>Are you ready to go?</div>
@@ -130,6 +132,6 @@ const C8 = () => {
       </div>
     </>
   );
-};
+}
 
-export default C8;
+export default LetsTalk;

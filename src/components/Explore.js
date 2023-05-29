@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../stylesheets/c1.module.css";
+import styles from "../stylesheets/banner.module.css";
 
 function Explore() {
   return (

@@ -1,5 +1,8 @@
-import styles from "../stylesheets/c2.module.css";
-const C2 = () => {
+import React from "react";
+import styles from "../stylesheets/IoMarquee.module.css";
+
+
+function IoMarquee() {
   const circle = (
     <svg
       className={styles.frameChild}
@@ -62,6 +65,6 @@ const C2 = () => {
       </div>
     </>
   );
-};
+}
 
-export default C2;
+export default IoMarquee;
